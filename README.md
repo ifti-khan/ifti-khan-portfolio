@@ -14,15 +14,15 @@ The project will be fully responsive so that it can be viewed and accessed on al
 
 ## UX - User Experience
 
-###The who?
+### The who?
 The websites sole purpose is to display my development skills for future employers and job recruiters. Not only will it display my development skills but will also advertise my work experiences, education, extra skills, hobbies and interest.
 
-###The what?
+### The what?
 This website will help future employers and recruiters get a better understanding of myself through a number of easy digestible web pages that are advertising and showing off my work experiences, education, skills as well as my development skills which will have live links to my other projects, hobbies and interest.
 
 They will also be able to view my CV in a pdf format online and will have the option to do download the CV as well. The website will also have a contact form, so that future employers and recruiters can get in direct contact with me through my website.
 
-###The how?
+### The how?
 All the information will be taken from my plain old CV and then changed, to give it more of an elegant style and then broken down into easy digestible chunks which will get website visitors straight to the point.
 
 The website will also incorporate an eye catching design that will draw website visitors in to know more about myself by visiting the other web pages. If the website visitor want to know more they will be able to view and download my CV with link provided by me.
