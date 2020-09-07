@@ -31,9 +31,11 @@ The website will also incorporate an eye catching design that will draw website 
 
 ## User Stories
 
-Here in this section you will find a variety of user stories, since I am developing a personal portfolio website.mThe target audience for my personal portfolio project will be Job Recruitment Agencies, Potential/Future Employers, Other Developers/Contractors, Friends and Family.
+Here in this section you will find a variety of user stories, since I am developing a personal portfolio website. The target audience for my personal portfolio project will be Job Recruitment Agencies, Employers, Developers, Contractors, Businesses, Friends and Family.
 
 * As a recruiter/employer, I want the website portfolio to be clear and easy to understand, so that I can get a clearer image and better understanding of the developer.
+
+* As a contractor, I want to be able to see this developer’s personal information, so that I can get in contact with the developer for contract work or collaborations.
 
 * As a recruiter/employer, I would like to see key information provided by the developer, so that I do not have to read through multiple paragraphs of information to get to the key information I am looking for.
 
@@ -47,6 +49,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * As a web developer, I want to able to see some social media links, so that I can follow this developer through social media.
 
-* As a recruiter/employer, I want to be able to see live links to other projects, so that I can see the level of development and skills this developer has to offer.
+* As a recruiter/employer/contractor, I want to be able to see live links to other projects, so that I can see the level of development and skills this developer has to offer.
 
 * As a website visitor, I want the website to have a good colour scheme and layout, so that the viewing experience is welcoming and the layout not too confusing to navigate around or understand.
+
