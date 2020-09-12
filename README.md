@@ -58,23 +58,24 @@ Here in this section you will find a variety of user stories, since I am develop
 
 ## Homepage
 
-* Homepage - Web Browser
+* Homepage - Web Browser [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Web%20Browser.png)
 
 
-* Homepage - Tablet
+* Homepage - Tablet [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Tablet.png)
 
 
-* Homepage - Smartphone
+* Homepage - Smartphone [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Smartphone.png)
 
 ## Resume Page
 
 * Resume Page - Web Browser
-
+- [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Web%20Browser.png)
 
 * Resume Page - Tablet
-
+- [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Tablet.png)
 
 * Resume Page - Smartphone
+- [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Smartphone.png)
 
 ## Project Page
 
