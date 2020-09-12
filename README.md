@@ -54,9 +54,9 @@ Here in this section you will find a variety of user stories, since I am develop
 * As a website visitor, I want the website to have a good colour scheme and layout, so that the viewing experience is welcoming and the layout not too confusing to navigate around or understand.
 
 
-# Wireframes
+## Wireframes
 
-## Homepage
+### Homepage
 
 * Homepage - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Web%20Browser.png)
 
@@ -64,7 +64,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * Homepage - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Smartphone.png)
 
-## Resume Page
+### Resume Page
 
 * Resume Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Web%20Browser.png)
 
@@ -72,7 +72,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * Resume Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Smartphone.png)
 
-## Project Page
+### Project Page
 
 * Project Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Web%20Browser.png)
 
@@ -80,7 +80,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * Project Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Smartphone.png)
 
-## Contact Page
+### Contact Page
 
 * Contact Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Web%20Browser.png)
 
