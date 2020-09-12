@@ -53,3 +53,48 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * As a website visitor, I want the website to have a good colour scheme and layout, so that the viewing experience is welcoming and the layout not too confusing to navigate around or understand.
 
+
+# Wireframes
+
+## Homepage
+
+### Homepage - Web Browser
+
+
+### Homepage - Tablet
+
+
+### Homepage - Smartphone
+
+## Resume Page
+
+### Resume Page - Web Browser
+
+
+### Resume Page - Tablet
+
+
+### Resume Page - Smartphone
+
+## Project Page
+
+### Project Page - Web Browser
+
+
+### Project Page - Tablet
+
+
+### Project Page - Smartphone
+
+## Contact Page
+
+### Contact Page - Web Browser
+
+
+### Contact Page - Tablet
+
+
+### Contact Page - Smartphone
+
+
+
