@@ -1,6 +1,6 @@
-[Click Here To Visit My Project Site](https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
-
 # Ifti Khan Milestone Project 1 - User Centric Frontend Development
+
+[Click Here To Visit My Project Site](https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
 
 ## Personal Portfolio
 
@@ -58,43 +58,43 @@ Here in this section you will find a variety of user stories, since I am develop
 
 ## Homepage
 
-### Homepage - Web Browser
+* Homepage - Web Browser
 
 
-### Homepage - Tablet
+* Homepage - Tablet
 
 
-### Homepage - Smartphone
+* Homepage - Smartphone
 
 ## Resume Page
 
-### Resume Page - Web Browser
+* Resume Page - Web Browser
 
 
-### Resume Page - Tablet
+* Resume Page - Tablet
 
 
-### Resume Page - Smartphone
+* Resume Page - Smartphone
 
 ## Project Page
 
-### Project Page - Web Browser
+* Project Page - Web Browser
 
 
-### Project Page - Tablet
+* Project Page - Tablet
 
 
-### Project Page - Smartphone
+* Project Page - Smartphone
 
 ## Contact Page
 
-### Contact Page - Web Browser
+* Contact Page - Web Browser
 
 
-### Contact Page - Tablet
+* Contact Page - Tablet
 
 
-### Contact Page - Smartphone
+* Contact Page - Smartphone
 
 
 
