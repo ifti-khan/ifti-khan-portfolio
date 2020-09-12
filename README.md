@@ -8,9 +8,9 @@
 
 This repository is showcasing my first milestone project for The Code Institute.
 
-I have chosen to do a personal portfolio project showing my employment history, skills, hobbies, interest and other development projects. It will showcase various skills, techniques and technologies that I have learnt and encountered throughout the course, to which I will then apply to creating my first milestone project.
+I have chosen to do a personal portfolio project showing my employment history, skills, hobbies, interest and other development projects. It will showcase various skills, techniques and technologies such as HTML5, CSS3 and Bootstrap, that I have learnt and encountered throughout the course, to which I will then apply to creating my first milestone project.
 
-The project will be fully responsive so that it can be viewed and accessed on all device sizes. This project is the first of many project and will be the main foundation for my other development projects and will help me advertise my skills and experience to future employers.
+The project will be fully responsive so that it can be viewed and accessed on all device sizes. This project is the first of many project and will be the main foundation for my other development projects, as I continue to learn, grow and progress throughout the course I will add more technologies to help me advertise my skills and experience to future employers.
 
 
 ## UX – User Experience
@@ -47,7 +47,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * As a recruiter/employer, I want there to be an easy way to contact the portfolio developer, so that if I have any further question to ask I am able to so.
 
-* As a web developer, I want to able to see some social media links, so that I can follow this developer through social media.
+* As a web developer, I want to able to see some social media links, so that I can follow this developer through social media if in the future I want to collaborate with this developer.
 
 * As a recruiter/employer/contractor, I want to be able to see live links to other projects, so that I can see the level of development and skills this developer has to offer.
 
