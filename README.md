@@ -58,44 +58,32 @@ Here in this section you will find a variety of user stories, since I am develop
 
 ## Homepage
 
-* Homepage - Web Browser [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Web%20Browser.png)
+* Homepage - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Web%20Browser.png)
 
+* Homepage - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Tablet.png)
 
-* Homepage - Tablet [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Tablet.png)
-
-
-* Homepage - Smartphone [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Smartphone.png)
+* Homepage - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Smartphone.png)
 
 ## Resume Page
 
-* Resume Page - Web Browser
-- [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Web%20Browser.png)
+* Resume Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Web%20Browser.png)
 
-* Resume Page - Tablet
-- [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Tablet.png)
+* Resume Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Tablet.png)
 
-* Resume Page - Smartphone
-- [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Smartphone.png)
+* Resume Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Smartphone.png)
 
 ## Project Page
 
-* Project Page - Web Browser
+* Project Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Web%20Browser.png)
 
+* Project Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Tablet.png)
 
-* Project Page - Tablet
-
-
-* Project Page - Smartphone
+* Project Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Smartphone.png)
 
 ## Contact Page
 
-* Contact Page - Web Browser
+* Contact Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Web%20Browser.png)
 
+* Contact Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Tablet.png)
 
-* Contact Page - Tablet
-
-
-* Contact Page - Smartphone
-
-
-
+* Contact Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Smartphone.png)
