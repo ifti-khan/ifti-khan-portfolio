@@ -64,7 +64,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * Homepage - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Smartphone.png)
 
-### Resume Page ->[View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Resume%20Page%20Wireframes.pdf)
+### Resume Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Resume%20Page%20Wireframes.pdf)
 
 * Resume Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Web%20Browser.png)
 
@@ -72,7 +72,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * Resume Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Smartphone.png)
 
-### Project Page ->[View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Project%20Page%20Wireframes.pdf)
+### Project Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Project%20Page%20Wireframes.pdf)
 
 * Project Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Web%20Browser.png)
 
@@ -80,7 +80,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * Project Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Smartphone.png)
 
-### Contact Page ->[View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Contact%20Page%20Wireframes.pdf)
+### Contact Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Contact%20Page%20Wireframes.pdf)
 
 * Contact Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Web%20Browser.png)
 
