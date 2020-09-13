@@ -134,38 +134,37 @@ Here is a list of programming languages used to create this project along with a
 
 ### Programming Languages
 
-*HTML5 -> [Visit Site]( https://en.wikipedia.org/wiki/HTML5)
+* HTML5 -> [Visit Site]( https://en.wikipedia.org/wiki/HTML5)
     * HTML5 was used to create the overall structure and page elements to be viewed in a web browser.
 
-CSS3 -> [Visit Site]( https://en.wikipedia.org/wiki/CSS)
-* CSS3 was used to give my project and its content style, layout, colours, a different font and format.
+* CSS3 -> [Visit Site]( https://en.wikipedia.org/wiki/CSS)
+    * CSS3 was used to give my project and its content style, layout, colours, a different font and format.
 
 ### Frameworks, Libraries & Tools Used
 
-Brackets -> [Visit Site]( http://brackets.io/)
-* Brackets is the text editor that I downloaded and used to create my project.
+* Brackets -> [Visit Site]( http://brackets.io/)
+    * Brackets is the text editor that I downloaded and used to create my project.
 
-Bootstrap 4.5.2 -> [Visit Site]( https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-* I will use bootstrap for the styling of my project , it will also be used for responsive features for my project.
+* Bootstrap 4.5.2 -> [Visit Site]( https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    * I will use bootstrap for the styling of my project , it will also be used for responsive features for my project.
 
-GitHub -> [Visit Site]( https://github.com/)
-* I used GitHub to store my project files by creating a repository for it and then using the Git terminal and its commands to version control and store my files.
+* GitHub -> [Visit Site]( https://github.com/)
+    * I used GitHub to store my project files by creating a repository for it and then using the Git terminal and its commands to version control and store my files.
 
-Git Terminal Desktop -> [Visit Site]( https://git-scm.com/)
-* Git is the terminal program I used to commit and push my files to my GitHub repository to store my files and version control.
+* Git Terminal Desktop -> [Visit Site]( https://git-scm.com/)
+    * Git is the terminal program I used to commit and push my files to my GitHub repository to store my files and version control.
 
-GitHub Desktop -> [Visit Site]( https://desktop.github.com/)
-* GitHub desktop was used to clone my online repositories to my local storage so I could edit my project files using Brackets and also to create new files and directories for my online repository locally and then using the Git terminal to commit and push to my GitHub repo.
+* GitHub Desktop -> [Visit Site]( https://desktop.github.com/)
+    * GitHub desktop was used to clone my online repositories to my local storage so I could edit my project files using Brackets and also to create new files and directories for my online repository locally and then using the Git terminal to commit and push to my GitHub repo.
 
-Balsamiq Desktop -> [Visit Site]( https://balsamiq.com/wireframes/desktop/)
-* Balsamiq was used in the design stage where I created my wireframes for my project to help me get visual representation of what my project could look like.
+* Balsamiq Desktop -> [Visit Site]( https://balsamiq.com/wireframes/desktop/)
+    * Balsamiq was used in the design stage where I created my wireframes for my project to help me get visual representation of what my project could look like.
 
-Google Fonts -> [Visit Site]( https://fonts.google.com/)
-* Google fonts has been used to import my various font directly from google into my main CSS file.
+* Google Fonts -> [Visit Site]( https://fonts.google.com/)
+    * Google fonts has been used to import my various font directly from google into my main CSS file.
 
-Font Awesome Icons -> [Visit Site]( https://fontawesome.com/icons?d=gallery)
-* Font awesome has been used for its icons which have been used throughout to give the project good visual elements and to help give a good user experience.
+* Font Awesome Icons -> [Visit Site]( https://fontawesome.com/icons?d=gallery)
+    * Font awesome has been used for its icons which have been used throughout to give the project good visual elements and to help give a good user experience.
 
-Hover Effects CSS3 -> [Visit Site]( https://ianlunn.github.io/Hover/)
-* The hover effect that I have chosen is the Back Pulse transition and this has been used on the navigation bar, so when a user hovers over the navigation button the back will pulse.
-
+* Hover Effects CSS3 -> [Visit Site]( https://ianlunn.github.io/Hover/)
+    * The hover effect that I have chosen is the Back Pulse transition and this has been used on the navigation bar, so when a user hovers over the navigation button the back will pulse.
