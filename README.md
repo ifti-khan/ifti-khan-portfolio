@@ -135,15 +135,16 @@ Here is a list of programming languages used to create this project along with a
 ### Programming Languages
 
 HTML5 -> [Visit Site]( https://en.wikipedia.org/wiki/HTML5)
-•	HTML5 was used to create the overall structure and page elements to be viewed in a web browser.
+* HTML5 was used to create the overall structure and page elements to be viewed in a web browser.
 
 CSS3 -> [Visit Site]( https://en.wikipedia.org/wiki/CSS)
-•	CSS3 was used to give my project and its content style, layout, colours, a different font and format.
+* CSS3 was used to give my project and its content style, layout, colours, a different font and format.
 
 ### Frameworks, Libraries & Tools Used
 
 Brackets -> [Visit Site]( http://brackets.io/)
 * Brackets is the text editor that I downloaded and used to create my project.
+
 Bootstrap 4.5.2 -> [Visit Site]( https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * I will use bootstrap for the styling of my project , it will also be used for responsive features for my project.
 
