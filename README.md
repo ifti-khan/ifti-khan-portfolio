@@ -87,3 +87,43 @@ Here in this section you will find a variety of user stories, since I am develop
 * Contact Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Tablet.png)
 
 * Contact Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Smartphone.png)
+
+
+## Features
+
+Here are a list of features that will be implemented and utilized within my project. There will also be a list future features I would like to add to the project at a later date as I learn and progress throughout the course.
+
+### Existing Features
+
+* Feature 1 – Allow users to view and download my CV just by clicking an active hyperlink link. Which will open a new tab to view and from there they can save or print my CV.
+
+* Feature 2 – Making my project responsive to allow users to access and view my project on a variety of different device sizes e.g. web browser, tablet and smartphone.
+
+* Feature 3 – Having a helpful homepage that will display key headings, key text and read more link that will be directly linked to my resume page.
+
+* Feature 4 – I will incorporate useful icons to give a better visual element to the project.
+
+* Feature 5 – My project pages will have quick loading times and this will be done by having the core elements loading first.
+
+* Feature 6 – I will include an active link element in my navigation bar to visually show users which webpage they are on.
+
+* Feature 7 – A quick link to the top of the page will be provided for smartphone users
+
+* Feature 8 – A hover animations will be used to my headings and navigation bar to give my project a better visual look and to help users.
+
+* Feature 9 - Social links to my Facebook, Twitter, LinkedIn and GitHub will be provided in the footer.
+
+* Feature 10 – If a user click on my profile picture I will take them back to the homepage.
+
+* Feature 11 – My email address will be displayed in the footer, also my mobile number and email will also be displayed at the bottom of the contact page.
+
+### Future Features To Implement
+
+* Feature 1 – A fully working contact page with a captcha verification.
+
+* Feature 2 – A collapsible navigation menu for smartphone devices.
+
+* Feature 3 – An instant messaging service will be added at a later date to help users get in contact with me faster.
+
+* Feature 4 – A floating contact and chat button to be displayed on all pages.
+
