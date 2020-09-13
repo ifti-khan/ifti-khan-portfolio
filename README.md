@@ -107,7 +107,7 @@ Here are a list of features that will be implemented and utilized within my proj
 
 * Feature 6 – I will include an active link element in my navigation bar to visually show users which webpage they are on.
 
-* Feature 7 – A quick link to the top of the page will be provided for smartphone users
+* Feature 7 – A quick link to the top of the page will be provided for smartphone users.
 
 * Feature 8 – A hover animations will be used to my headings and navigation bar to give my project a better visual look and to help users.
 
@@ -123,7 +123,6 @@ Here are a list of features that will be implemented and utilized within my proj
 
 * Feature 2 – A collapsible navigation menu for smartphone devices.
 
-* Feature 3 – An instant messaging service will be added at a later date to help users get in contact with me faster.
+* Feature 3 – A floating contact and chat button to be displayed on all pages.
 
-* Feature 4 – A floating contact and chat button to be displayed on all pages.
-
+* Feature 4 – An instant messaging service will be added at a later date to help users get in contact with me faster.
