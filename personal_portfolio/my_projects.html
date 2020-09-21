@@ -14,6 +14,7 @@
 <body>
     <header>
         <div class="row no-gutter">
+            <div id="top"></div>
             <a href="index.html" class="col-12 col-md-6 col-lg-4 profile_pic"></a>
             <div class="col-12 col-md-6 col-lg-8">
                 <div class="row no-gutter main_heading_color">
@@ -33,29 +34,77 @@
     <nav class="nav_bar_con">
         <div class="row no gutter">
             <div class="col-lg-2 empty-nav-space"></div>
-            <div class="col-12 col-md-3 col-lg-2 home-link hvr-sweep-to-right">
+            <div class="col-12 col-md-3 col-lg-2 home-link hvr-sweep-to-right current_page">
                 <a href="index.html">
-                    <h3 id="label_home">Home</h3>
+                    <h3 id="label_home"><i class="fas fa-home" aria-hidden="true"></i> Home</h3>
                 </a>
             </div>
             <div class="col-12 col-md-3 col-lg-2 resume-link hvr-sweep-to-right">
                 <a href="my_resume.html">
-                    <h3>My Resume</h3>
+                    <h3><i class="fas fa-book-reader" aria-hidden="true"></i> My Resume</h3>
                 </a>
             </div>
-            <div class="col-12 col-md-3 col-lg-2 project-link hvr-sweep-to-right current_page">
+            <div class="col-12 col-md-3 col-lg-2 project-link hvr-sweep-to-right">
                 <a href="my_projects.html">
-                    <h3>My Projects</h3>
+                    <h3><i class="fas fa-folder" aria-hidden="true"></i> My Projects</h3>
                 </a>
             </div>
             <div class="col-12 col-md-3 col-lg-2 contact-link hvr-sweep-to-right">
                 <a href="contact_me.html">
-                    <h3>Contact Me</h3>
+                    <h3><i class="fas fa-envelope" aria-hidden="true"></i> Contact Me</h3>
                 </a>
             </div>
             <div class="col-lg-2 empty-nav-space"></div>
         </div>
     </nav>
+
+    <div class="container main_content"><br>
+        <h1>This section here is where my main content will go, this heading is temporary</h1><br>
+    </div>
+
+    <footer>
+        <div class="row no-gutter footer-container">
+
+            <div class="col-12 col-md-4 email_project_link">
+                <a href="contact_me.html" class="foot-email">
+                    <h5 id="email_footer_head">Get In Touch! <i class="fas fa-envelope" aria-hidden="true"></i></h5>
+                </a>
+
+                <a href="contact_me.html" class="foot-email">
+                    <h6 id="email_address_head"><strong>ifti-khan@outlook.com</strong></h6>
+                </a>
+
+                <a href="my_projects.html" class="foot-projects">
+                    <h5 id="project_footer_head">See My Projects <i class="fas fa-folder" aria-hidden="true"></i></h5>
+                </a>
+            </div>
+
+            <div class=" col-12 col-md-4 social_links">
+                <h5 id="social_footer_head"><i class="fas fa-users" aria-hidden="true"></i> Check Out My Social Media</h5>
+                <div class="social_logos">
+                    <h1 id="social_icons">
+                        <a href="https://www.facebook.com/ifti.khan.315" target="_blank" class="foot-fb"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+
+                        <a href="https://www.twitter.com/ifti_k" target="_blank" class="foot-twitter"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+
+                        <a href="https://www.linkedin.com/in/iftikhar-khan-1b1a2498/" target="_blank" class="foot-linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+
+                        <a href="https://www.github.com/ifti-khan" target="_blank" class="foot-github"><i class="fab fa-github-square" aria-hidden="true"></i></a>
+                    </h1>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-4 download_cv_link">
+                <a href="assets/cv/iftikhar_khan_cv.pdf" target="_blank" class="foot-cv-dl">
+                    <h5 id="dlcv_footer_head">Download My CV <i class="fas fa-arrow-circle-down" aria-hidden="true"></i></h5>
+                    <h1 id="dl_icon"><i class="fas fa-file-pdf" aria-hidden="true"></i><br></h1>
+                </a>
+
+                <a href="#top" class="back-to-top">Back To Top <i class="fas fa-arrow-circle-up" aria-hidden="true"></i></a>
+
+            </div>
+        </div>
+    </footer>
 
 </body>
 

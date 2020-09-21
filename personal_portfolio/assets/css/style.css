@@ -82,6 +82,7 @@ body {
 #head-cv:hover {
     color: #ffffff;
     border-left-color: #ffffff;
+    text-shadow: -1px -1px 25px #000000;
 }
 
 /****************************************Header Section End*/
@@ -128,6 +129,60 @@ body {
 /****************************************Sweep To Right Hover Section
 /****************************************Navigation Section End*/
 
+/****************************************Main Content Section End*/
+
+.main_content {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+/****************************************Main Content Section End*/
+
+/****************************************Footer Section Start*/
+
+.footer-container {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+.email_project_link,
+.social_links,
+.download_cv_link {
+    border-left: 2px solid #fff;
+    padding: 10px 0px;
+}
+
+.foot-email,
+.foot-projects,
+.foot-fb,
+.foot-twitter,
+.foot-linkedin,
+.foot-github,
+.foot-cv-dl {
+    color: #000000;
+}
+
+.back-to-top {
+    color: #000000;
+    display: none;
+}
+
+.foot-email:hover,
+.foot-projects:hover,
+.foot-fb:hover,
+.foot-twitter:hover,
+.foot-linkedin:hover,
+.foot-github:hover,
+.foot-cv-dl:hover,
+.back-to-top:hover {
+    color: #ffffff;
+    text-shadow: -1px -1px 25px #000000;
+}
+
+
+
+/****************************************Footer Section End*/
+
 /****************************************Media Queries Start*/
 /****************************************Laptop*/
 @media (max-width: 1024px) {
@@ -158,6 +213,24 @@ body {
 
     .nav_bar_con h3 {
         font-size: 15px;
+    }
+
+    #email_footer_head,
+    #email_address_head,
+    #project_footer_head,
+    #social_footer_head,
+    #dlcv_footer_head {
+        font-size: 18px;
+    }
+
+    #social_icons,
+    #dl_icon {
+        font-size: 25px;
+    }
+
+    .social_links,
+    .download_cv_link {
+        padding-top: 25px;
     }
 
 }
@@ -234,6 +307,24 @@ body {
         font-size: 15px;
     }
 
+    #email_footer_head,
+    #email_address_head,
+    #project_footer_head,
+    #social_footer_head,
+    #dlcv_footer_head {
+        font-size: 16px;
+    }
+
+    #social_icons,
+    #dl_icon {
+        font-size: 25px;
+    }
+
+    .social_links,
+    .download_cv_link {
+        padding-top: 25px;
+    }
+
 }
 
 /****************************************Smartphone*/
@@ -291,6 +382,21 @@ body {
         border-bottom: 2px solid #fff;
     }
 
+    #social_icons,
+    #dl_icon {
+        font-size: 25px;
+    }
+
+    .email_project_link,
+    .social_links,
+    .download_cv_link {
+        padding-top: 10px;
+        border-bottom: 2px solid #fff;
+    }
+
+    .back-to-top {
+        display: initial;
+    }
 }
 
 /****************************************Media Quries End*/
