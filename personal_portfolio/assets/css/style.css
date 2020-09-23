@@ -170,6 +170,17 @@ body {
     display: none;
 }
 
+#social_footer_head,
+#dlcv_footer_head {
+    margin: 0;
+}
+
+#social_icons,
+#dl_icon {
+    font-size: 40px;
+
+}
+
 .foot-email:hover,
 .foot-projects:hover,
 .foot-fb:hover,
