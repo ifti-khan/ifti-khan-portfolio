@@ -2,6 +2,14 @@
 
 body {
     font-family: "Exo 2", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 /****************************************Header Section Start*/
@@ -14,20 +22,23 @@ body {
     filter: grayscale(50%);
     padding: 0px;
     object-fit: cover;
-
 }
 
 .profile_link {
     padding: 0;
 }
 
-.main_heading_color {
+.main_headings_con {
     background-color: #a9a9a9;
+    border-left: 2px solid #ffffff;
+    padding: 0px
+}
+
+.main_headings {
     height: 100%;
 }
 
 .headings {
-    border-left: 2px solid #ffffff;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -41,8 +52,8 @@ body {
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
-    margin-left: 40px;
-    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
     border-left: 10px solid #000000;
     padding-left: 10px;
 }
@@ -53,8 +64,8 @@ body {
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
-    margin-left: 40px;
-    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
     border-left: 10px solid #000000;
     padding-left: 10px;
 }
@@ -65,8 +76,8 @@ body {
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
-    margin-left: 40px;
-    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-bottom: 40px;
     border-left: 10px solid #000000;
     padding-left: 10px;
 }
@@ -77,7 +88,7 @@ body {
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
-    margin-left: 40px;
+    margin-left: 20px;
     border-left: 10px solid #000000;
     padding-left: 10px;
     margin-bottom: 50px
@@ -92,24 +103,34 @@ body {
 /****************************************Header Section End*/
 
 /****************************************Navigation Section Start*/
+
 .nav_bar_con h3 {
     margin: 0;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 4px;
     text-align: center;
 }
 
-.empty-nav-space,
+.empty-nav-space {
+    background-color: lightgray;
+}
+
 .home-link,
 .resume-link,
 .project-link,
 .contact-link {
-    border-left: 2px solid #fff;
+    border-left: 2px solid #ffffff;
     background-color: lightgray;
     padding: 10px 0px;
     text-align: center;
-    white-space: ;
+}
+
+.contact-link {
+    border-right: 2px solid #ffffff;
+    background-color: lightgray;
+    padding: 10px 0px;
+    text-align: center;
 }
 
 .nav_bar_con a {
@@ -135,11 +156,53 @@ body {
 
 /****************************************Main Content Section End*/
 
-.main_content {
-    text-align: center;
-    background-color: whitesmoke;
+.top-row,
+.bottom-row {
     padding: 0;
+    margin: 0;
+}
+
+.top-row h3,
+.bottom-row h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.top-row h5,
+.bottom-row h5 {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.main-con-head {
+    width: 100%;
+    padding: 15px;
+    border: 20px solid white;
+    background-color: #e8e8e8;
+}
+
+.main-con-head h5 {
+    padding-bottom: 10px;
+}
+
+.main-con-head a {
+    text-decoration: none;
+}
+
+.readmore-btn {
+    display: block;
     margin: 0 auto;
+    text-transform: uppercase;
+    background-color: lightgray;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.readmore-btn:hover {
+    background-color: #a9a9a9;
 }
 
 /****************************************Main Content Section End*/
@@ -147,8 +210,10 @@ body {
 /****************************************Footer Section Start*/
 
 .footer-container {
-    background-color: darkgrey;
+    background-color: #a9a9a9;
     text-align: center;
+    letter-spacing: 1px;
+
 }
 
 .email_project_link,
@@ -205,7 +270,7 @@ body {
 /****************************************Laptop*/
 @media (max-width: 1024px) {
     #head-fname {
-        margin-top: 60px;
+        margin-top: 30px;
         font-size: 70px;
         margin-left: 10px;
         margin-bottom: 35px;
@@ -233,6 +298,12 @@ body {
         font-size: 15px;
     }
 
+
+
+    .main-con-head {
+        border: 10px solid white;
+    }
+
     #email_footer_head,
     #email_address_head,
     #project_footer_head,
@@ -256,24 +327,44 @@ body {
 /****************************************Smaller Laptop*/
 @media (max-width: 991px) {
 
+    .headings {
+        text-align: center;
+    }
+
     #head-fname {
-        font-size: 55px
+        border-left: none;
+        margin-left: 0;
+        font-size: 60px
     }
 
     #head-title {
-        font-size: 30px
+        border-left: none;
+        margin-left: 0;
+        font-size: 35px
     }
 
     #head-status {
-        font-size: 16px
+        border-left: none;
+        margin-left: 0;
+        font-size: 25px
     }
 
     #head-cv {
-        font-size: 15px
+        border-left: none;
+        margin-left: 0;
+        font-size: 17px
     }
 
     .empty-nav-space {
         display: none;
+    }
+
+    .home-link {
+        border-left: none;
+    }
+
+    .contact-link {
+        border-right: none;
     }
 }
 
@@ -281,7 +372,7 @@ body {
 @media (max-width: 768px) {
 
     #head-fname {
-        margin-top: 30px;
+        margin-top: 20px;
         font-size: 60px;
         margin-left: 0px;
         padding-left: 0px;
@@ -321,8 +412,25 @@ body {
         display: none;
     }
 
+    .home-link {
+        border-left: none;
+    }
+
+    .contact-link {
+        border-right: none;
+    }
+
     .nav_bar_con h3 {
         font-size: 15px;
+    }
+
+    .top-row,
+    .bottom-row {
+        margin-left: 0;
+    }
+
+    .main-con-head {
+        border: 5px solid white;
     }
 
     #email_footer_head,
@@ -347,6 +455,22 @@ body {
 
 /****************************************Smartphone*/
 @media (max-width: 425px) {
+
+    .main_headings_con {
+        border-left: none;
+    }
+
+    .home-link,
+    .resume-link,
+    .project-link,
+    .contact-link {
+        border-left: none;
+    }
+
+    .contact-link {
+        border-right: none;
+    }
+
     #head-fname {
         margin-top: 20px;
         font-size: 40px;
@@ -398,6 +522,19 @@ body {
     .project-link,
     .contact-link {
         border-bottom: 2px solid #fff;
+    }
+
+    .top-row,
+    .bottom-row {
+        margin-left: 0;
+    }
+
+    .main-con-head {
+        border: 5px solid white;
+    }
+
+    .empty-content-space {
+        display: none;
     }
 
     #social_icons,
