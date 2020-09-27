@@ -16,7 +16,7 @@ body {
 /*darkgrey color code #a9a9a9*/
 
 .profile_pic {
-    background-color: #a9a9a9;
+    background-color: #888888;
     width: 100%;
     height: 100%;
     filter: grayscale(50%);
@@ -29,7 +29,7 @@ body {
 }
 
 .main_headings_con {
-    background-color: #a9a9a9;
+    background-color: #888888;
     border-left: 2px solid #ffffff;
     padding: 0px
 }
@@ -155,7 +155,7 @@ body {
 /****************************************Navigation Section End*/
 
 /****************************************Main Content Section End*/
-
+/****************************************index.html Start*/
 .top-row,
 .bottom-row {
     padding: 0;
@@ -205,12 +205,135 @@ body {
     background-color: #a9a9a9;
 }
 
+/****************************************index.html End*/
+
+/****************************************resume.html Start*/
+.resume-leftside-content {
+    background-color: #e8e8e8;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.resume-leftside-content h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 50px 0px;
+}
+
+.resume-rightside-content {
+    text-align: center;
+    letter-spacing: 2px;
+    height: 50vh;
+    overflow-y: scroll;
+
+}
+
+.resume-rightside-content h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-rightside-content h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#workhistory {
+    margin-bottom: 15px;
+}
+
+.history-items {
+    border-left: 5px solid black;
+}
+
+.workhistory-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.workhistory-item h4 {
+    font-size: 20px;
+    letter-spacing: 4px;
+
+}
+
+.workhistory-item:before {
+    content: attr(date-history);
+    position: absolute;
+    display: block;
+    left: 16px;
+    top: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.workhistory-item:after {
+    width: 20px;
+    height: 20px;
+    display: block;
+    left: -27px;
+    top: 18px;
+    position: absolute;
+    border-radius: 5px;
+    content: '';
+    background-color: #000000;
+}
+
+#education {
+    margin-bottom: 15px;
+}
+
+.education-items {
+    border-right: 5px solid black;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.education-item h4 {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.education-item:before {
+    content: attr(date-education);
+    position: absolute;
+    display: block;
+    right: 16px;
+    top: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.education-item:after {
+    width: 20px;
+    height: 20px;
+    display: block;
+    right: -27px;
+    top: 18px;
+    position: absolute;
+    border-radius: 5px;
+    content: '';
+    background-color: #000000;
+}
+
+
+
+/****************************************resume.html Start*/
+
 /****************************************Main Content Section End*/
 
 /****************************************Footer Section Start*/
 
 .footer-container {
-    background-color: #a9a9a9;
+    background-color: #888888;
     text-align: center;
     letter-spacing: 1px;
 
@@ -298,10 +421,22 @@ body {
         font-size: 15px;
     }
 
-
-
     .main-con-head {
         border: 10px solid white;
+    }
+
+    .resume-leftside-content h3 {
+        font-size: 20px;
+    }
+
+    .workhistory-item {
+        font-size: 12px;
+        padding-left: 75px;
+    }
+
+    .education-item {
+        font-size: 12px;
+        padding-right: 25px;
     }
 
     #email_footer_head,
@@ -433,6 +568,23 @@ body {
         border: 5px solid white;
     }
 
+    .resume-leftside-content h3 {
+        font-size: 20px;
+    }
+
+    .resume-rightside-content h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .workhistory-item:before {
+        position: initial;
+    }
+
+    .education-item:before {
+        position: initial;
+    }
+
     #email_footer_head,
     #email_address_head,
     #project_footer_head,
@@ -535,6 +687,27 @@ body {
 
     .empty-content-space {
         display: none;
+    }
+
+    .empty-col-history {
+        display: none;
+    }
+
+    .resume-leftside-content {
+        display: none;
+    }
+
+    .resume-rightside-content h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .workhistory-item:before {
+        position: initial;
+    }
+
+    .education-item:before {
+        position: initial;
     }
 
     #social_icons,
