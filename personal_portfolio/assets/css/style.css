@@ -48,7 +48,6 @@ body {
 #head-fname {
     margin-top: 50px;
     font-size: 80px;
-    font-weight: 600;
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
@@ -60,7 +59,6 @@ body {
 
 #head-title {
     font-size: 45px;
-    font-weight: 600;
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
@@ -72,7 +70,6 @@ body {
 
 #head-status {
     font-size: 22.5px;
-    font-weight: 600;
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
@@ -84,7 +81,6 @@ body {
 
 #head-cv {
     font-size: 18px;
-    font-weight: 600;
     text-decoration-line: underline;
     text-shadow: -1px -1px 25px #ffffff;
     color: #000000;
@@ -180,7 +176,8 @@ body {
     width: 100%;
     padding: 15px;
     border: 20px solid white;
-    background-color: #e8e8e8;
+    background-color: lightgray;
+
 }
 
 .main-con-head h5 {
@@ -209,9 +206,11 @@ body {
 
 /****************************************resume.html Start*/
 .resume-leftside-content {
-    background-color: #e8e8e8;
+    background-color: lightgray;
     text-align: center;
     letter-spacing: 2px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 
 }
 
@@ -219,6 +218,15 @@ body {
     font-size: 25px;
     text-transform: uppercase;
     margin: 50px 0px;
+}
+
+.resume-leftside-content a {
+    color: black;
+    text-decoration: none;
+}
+
+.resume-leftside-content a:hover {
+    color: white;
 }
 
 .resume-rightside-content {
@@ -233,7 +241,7 @@ body {
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -253,6 +261,7 @@ body {
 .workhistory-item {
     margin-bottom: 20px;
     position: relative;
+    font-weight: 900;
 }
 
 .workhistory-item h4 {
@@ -294,6 +303,7 @@ body {
 .education-item {
     margin-bottom: 20px;
     position: relative;
+    font-weight: 900;
 
 }
 
@@ -324,9 +334,40 @@ body {
     background-color: #000000;
 }
 
+.progress {
+    height: 30px;
+}
 
+.html5-progress {
+    background-color: maroon;
+    font-size: 15px;
+}
 
-/****************************************resume.html Start*/
+.css3-progress {
+    background-color: darkgreen;
+    font-size: 15px;
+}
+
+.javascript-progress {
+    background-color: darkgray;
+    font-size: 15px;
+}
+
+.php-progress {
+    background-color: navy;
+    font-size: 15px;
+}
+
+.sql-progress {
+    background-color: black;
+    font-size: 15px;
+}
+
+.hobbies_interests h4 {
+    font-size: 20px;
+}
+
+/****************************************resume.html End*/
 
 /****************************************Main Content Section End*/
 
@@ -336,7 +377,6 @@ body {
     background-color: #888888;
     text-align: center;
     letter-spacing: 1px;
-
 }
 
 .email_project_link,
@@ -382,10 +422,8 @@ body {
 .foot-cv-dl:hover,
 .back-to-top:hover {
     color: #ffffff;
-    text-shadow: -1px -1px 25px #000000;
+    text-decoration: none;
 }
-
-
 
 /****************************************Footer Section End*/
 
@@ -437,6 +475,14 @@ body {
     .education-item {
         font-size: 12px;
         padding-right: 25px;
+    }
+
+    .about-me h5 {
+        font-size: 18px;
+    }
+
+    .hobbies_interests h4 {
+        font-size: 18px;
     }
 
     #email_footer_head,
@@ -500,6 +546,56 @@ body {
 
     .contact-link {
         border-right: none;
+    }
+
+    .resume-leftside-content h3 {
+        font-size: 20px;
+    }
+
+    .resume-rightside-content h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about-me h5 {
+        font-size: 16px;
+    }
+
+    .workhistory-item:before,
+    .education-item:before {
+        position: initial;
+    }
+
+    .workhistory-item:after {
+        left: 103px;
+    }
+
+    .education-item:after {
+        right: 58px;
+    }
+
+    .workhistory-item {
+        margin-left: -130px;
+    }
+
+    .education-item {
+        margin-right: -85px;
+    }
+
+    .workhistory-item,
+    .education-item {
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .w10 h5,
+    .off365 h5,
+    .mac h5 {
+        font-size: 18px;
+    }
+
+    .hobbies_interests h4 {
+        font-size: 16px;
     }
 }
 
@@ -577,12 +673,22 @@ body {
         margin-bottom: 10px;
     }
 
-    .workhistory-item:before {
+    .workhistory-item:before,
+    .education-item:before {
         position: initial;
     }
 
-    .education-item:before {
-        position: initial;
+    .workhistory-item,
+    .education-item {
+        margin: 0;
+    }
+
+    .workhistory-item:after {
+        left: -27px;
+    }
+
+    .education-item:after {
+        right: -27px;
     }
 
     #email_footer_head,
@@ -685,16 +791,15 @@ body {
         border: 5px solid white;
     }
 
-    .empty-content-space {
-        display: none;
-    }
-
-    .empty-col-history {
-        display: none;
-    }
-
+    .empty-content-space,
+    .empty-col-history,
     .resume-leftside-content {
         display: none;
+    }
+
+    .resume-rightside-content {
+        overflow: auto;
+        height: 100vh;
     }
 
     .resume-rightside-content h3 {
@@ -702,12 +807,33 @@ body {
         margin-bottom: 10px;
     }
 
-    .workhistory-item:before {
+    .workhistory-item:before,
+    .education-item:before {
         position: initial;
     }
 
-    .education-item:before {
-        position: initial;
+    .workhistory-item {
+        margin-left: -75px;
+    }
+
+    .education-item {
+        margin-right: -25px;
+    }
+
+    .workhistory-item:after {
+        left: 48px;
+    }
+
+    .education-item:after {
+        right: -2px;
+    }
+
+    .html5-progress,
+    .css3-progress,
+    .javascript-progress,
+    .php-progress,
+    .sql-progress {
+        font-size: 15px;
     }
 
     #social_icons,
