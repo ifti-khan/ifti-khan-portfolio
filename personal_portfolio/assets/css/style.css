@@ -204,7 +204,7 @@ body {
 
 /****************************************index.html End*/
 
-/****************************************resume.html Start*/
+/****************************************my_resume.html Start*/
 .resume-leftside-content {
     background-color: lightgray;
     text-align: center;
@@ -366,6 +366,86 @@ body {
 .hobbies_interests h4 {
     font-size: 20px;
 }
+
+/****************************************my_resume.html End*/
+
+/****************************************my_project.html Start*/
+
+.project_content {
+    margin: 20px;
+}
+
+.project_content h2 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.project_content h5 {
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.love-running-info {
+    padding: 15px;
+    background-color: lightgray;
+    border-right: 2px solid #ffffff;
+}
+
+.love-running-links {
+    padding: 15px;
+    background-color: lightgray;
+}
+
+.love-running-info a,
+.stream-info a,
+.whiskey-info a,
+.rosie-info a,
+.myproject-info a {
+    color: black;
+    text-decoration: underline;
+}
+
+.love-running-info a:hover,
+.stream-info a:hover,
+.whiskey-info a:hover,
+.rosie-info a:hover,
+.myproject-info a:hover {
+    color: white;
+}
+
+.stream-info,
+.whiskey-info,
+.rosie-info,
+.myproject-info {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: lightgray;
+    border-right: 2px solid #ffffff;
+}
+
+.stream-links,
+.whiskey-links,
+.rosie-links,
+.myproject-links {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: lightgray;
+}
+
+.site-thumbs {
+    width: 100%;
+    border: 2px solid #000000;
+}
+
+.site-thumbs:hover {
+    border: 2px solid #ffffff;
+}
+
 
 /****************************************resume.html End*/
 

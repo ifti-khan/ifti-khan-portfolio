@@ -1,6 +1,23 @@
 /****************************************Media Queries Start*/
 
-/****************************************Laptop 1024px*/
+/****************************************Larger Laptops 1440px*/
+@media (max-width: 1440px) {
+
+    .project_content h2 {
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 26px;
+    }
+
+    .project_content h5 {
+        padding-left: 10px;
+        font-size: 17px;
+    }
+
+}
+
+/****************************************Laptops 1024px*/
 @media (max-width: 1024px) {
     #head-fname {
         margin-top: 30px;
@@ -57,6 +74,17 @@
         font-size: 18px;
     }
 
+    .project_content h2 {
+        padding-top: 0;
+        padding-left: 5px;
+        font-size: 28px;
+    }
+
+    .project_content h5 {
+        padding-left: 5px;
+        font-size: 19px;
+    }
+
     #email_footer_head,
     #email_address_head,
     #project_footer_head,
@@ -77,7 +105,7 @@
 
 }
 
-/****************************************Smaller Laptop 991px*/
+/****************************************Small Laptops 991px*/
 @media (max-width: 991px) {
 
     .headings {
@@ -168,6 +196,40 @@
 
     .hobbies_interests h4 {
         font-size: 16px;
+    }
+
+    .project_content h2 {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .project_content h5 {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .love-running-info,
+    .stream-info,
+    .whiskey-info,
+    .rosie-info,
+    .myproject-info {
+        padding-bottom: 0;
+        border-right: none;
+    }
+
+    .stream-links,
+    .whiskey-links,
+    .rosie-links,
+    .myproject-links {
+        margin-top: 0px;
+
+    }
+
+    .site-thumbs {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
     }
 }
 
@@ -261,6 +323,39 @@
 
     .education-item:after {
         right: -27px;
+    }
+
+    .project_content h2 {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .project_content h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .love-running-info,
+    .stream-info,
+    .whiskey-info,
+    .rosie-info,
+    .myproject-info {
+        padding-bottom: 0;
+        border-right: none;
+    }
+
+    .stream-links,
+    .whiskey-links,
+    .rosie-links,
+    .myproject-links {
+        margin-top: 0px;
+
+    }
+
+    .site-thumbs {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
     }
 
     #email_footer_head,
@@ -406,6 +501,38 @@
     .php-progress,
     .sql-progress {
         font-size: 15px;
+    }
+
+    .project_content {
+        margin: 5px;
+        margin-top: 0px;
+    }
+
+    .project_content h2 {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .project_content h5 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .love-running-info,
+    .stream-info,
+    .whiskey-info,
+    .rosie-info,
+    .myproject-info {
+        margin-top: 5px;
+        padding-bottom: 0;
+        border-right: none;
+    }
+
+    .stream-links,
+    .whiskey-links,
+    .rosie-links,
+    .myproject-links {
+        margin-top: 0px;
     }
 
     #social_icons,
