@@ -407,7 +407,6 @@ body {
 .rosie-info a,
 .myproject-info a {
     color: black;
-    text-decoration: underline;
 }
 
 .love-running-info a:hover,
@@ -446,8 +445,27 @@ body {
     border: 2px solid #ffffff;
 }
 
+.visit-site-btn {
+    text-transform: uppercase;
+    background-color: lightgray;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 25px;
+}
 
-/****************************************resume.html End*/
+.visit-site-btn:hover {
+    background-color: #a9a9a9;
+}
+
+/****************************************my_project.html End*/
+
+/****************************************contact_me.html Start*/
+
+
+
+/****************************************contact_me.html End*/
 
 /****************************************Main Content Section End*/
 
