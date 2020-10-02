@@ -3,6 +3,10 @@
 /****************************************Larger Laptops 1440px*/
 @media (max-width: 1440px) {
 
+    .resume-rightside-content {
+        overflow: auto;
+    }
+
     .project_content h2 {
         margin-bottom: 5px;
         padding-top: 10px;
@@ -19,6 +23,33 @@
         margin-top: 10px;
         margin-left: 10px;
     }
+
+    .contact_content h3 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .contact_form {
+        margin: 0 auto;
+    }
+
+    #fullname,
+    #mobile,
+    #email,
+    #subject,
+    #message {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .send-btn {
+        width: 125px;
+        font-size: 20px;
+    }
+
+
 
 }
 
@@ -75,6 +106,10 @@
         font-size: 18px;
     }
 
+    .resume-rightside-content {
+        overflow: auto;
+    }
+
     .hobbies_interests h4 {
         font-size: 18px;
     }
@@ -93,6 +128,31 @@
     .visit-site-btn {
         margin-top: 10px;
         margin-left: 5px;
+    }
+
+    .contact_content h3 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .contact_form {
+        margin: 0 auto;
+    }
+
+    #fullname,
+    #mobile,
+    #email,
+    #subject,
+    #message {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .send-btn {
+        width: 125px;
+        font-size: 20px;
     }
 
     #email_footer_head,
@@ -169,6 +229,10 @@
 
     .about-me h5 {
         font-size: 16px;
+    }
+
+    .resume-rightside-content {
+        overflow: auto;
     }
 
     .workhistory-item:before,
@@ -323,6 +387,10 @@
         margin-bottom: 10px;
     }
 
+    .resume-rightside-content {
+        overflow: auto;
+    }
+
     .workhistory-item:before,
     .education-item:before {
         position: initial;
@@ -378,6 +446,31 @@
         display: block;
         margin: 0 auto;
         margin-top: 10px;
+    }
+
+    .contact_content h3 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .contact_form {
+        margin: 0 auto;
+    }
+
+    #fullname,
+    #mobile,
+    #email,
+    #subject,
+    #message {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .send-btn {
+        width: 125px;
+        font-size: 20px;
     }
 
     #email_footer_head,
@@ -488,7 +581,6 @@
 
     .resume-rightside-content {
         overflow: auto;
-        height: 100vh;
     }
 
     .resume-rightside-content h3 {
@@ -555,6 +647,31 @@
     .rosie-links,
     .myproject-links {
         margin-top: 0px;
+    }
+
+    .contact_content h3 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .contact_form {
+        margin: 0 auto;
+    }
+
+    #fullname,
+    #mobile,
+    #email,
+    #subject,
+    #message {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .send-btn {
+        width: 125px;
+        font-size: 20px;
     }
 
     #social_icons,
