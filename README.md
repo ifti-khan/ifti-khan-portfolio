@@ -172,7 +172,7 @@ Here is a list of programming languages used to create this project along with a
 * Paint 3D -> [Visit Site]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
     * Paint 3D was used to crop screenshot images and then saved to an appropriate image format.
 
-## Testing
+# Testing
 
 Here in this section i will be conducting a variety of different test to thoroughly make sure the website is fully functioning. I will also do HTML5 validation as well as CSS3 validation using the online W3C validation tool.
 
@@ -187,36 +187,36 @@ I have chosen to do the HTML5 and CSS3 validation first because this will reveal
 
 After running the HTML5 online validation, the results came in that my button elements could not be a descendant of the a element.
 
-PDF File Link Here With Errors -> [Visit PDF](#)
+PDF File Link Here With Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/homepage_validation_results_with_errors.pdf)
 
 To make the code compliant I had to remove the a element and contain the button element inside of a form element. I also had to put the href link in the form action and change the button type from button to submit.
 
-PDF File Link Here With No Errors -> [Visit PDF](#)
+PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/homepage_validation_results_no_errors.pdf)
 
 #### Resume Page (my_resume.html)
 
 After running the HTML5 online validation, the results came in that I was using the center element which is obsolete and that I had to use CSS to center my elements. I was using an attribute incorrectly, I called it date-education and date-history. Another issue is that I mistakenly gave a bad value to one of the progress bars.
-PDF File Link Here With Errors -> [Visit PDF](#)
+PDF File Link Here With Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/resume_page_validation_results_with_errors.pdf)
 
 To make the code compliant I got rid of the center elements and created a classes for the elements. Then I used the CSS the margin-left and margin-right auto to center my elements. I then fixed the attribute error very easily because I made a simple name mistake, because I had put date instead of data. The last fix was also easy and found in my JavaScript progress bar, I changed the bad value from 100% to 100.
 
-PDF File Link Here With No Errors -> [Visit PDF](#)
+PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/resume_page_validation_results_no_errors.pdf)
 
 #### Project Page (my_projects.html)
 
 After running the HTML5 online validation, the results came in same as my index.html that my button could not be a descendant from an a element. Also my comment line was too long and had to be shortened.
 
-PDF File Link Here With Errors -> [Visit PDF](#)
+PDF File Link Here With Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/project_page_validation_results_with_errors.pdf)
 
 To make the code compliant I had shortened the comment lines as well as removing the a elements. I then added in a form elements for the buttons and made the form actions linked to the websites URLs.
 
-PDF File Link Here With No Errors -> [Visit PDF](#)
+PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/project_page_validation_results_no_errors.pdf)
 
 #### Contact Page (contact_me.html)
 
 After running the HTML5 online validation, the contact page came out with no errors.
 
-PDF File Link Here With No Errors -> [Visit PDF](#)
+PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/contact_page_validation_results_no_errors.pdf)
 
 
 ## Deployment
