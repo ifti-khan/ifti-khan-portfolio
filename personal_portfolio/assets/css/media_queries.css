@@ -5,6 +5,7 @@
 
     .resume-rightside-content {
         overflow: auto;
+        max-height: 450px;
     }
 
     .project_content h2 {
@@ -102,12 +103,13 @@
         padding-right: 25px;
     }
 
-    .about-me h5 {
+    .aboutme_section h5 {
         font-size: 18px;
     }
 
     .resume-rightside-content {
         overflow: auto;
+        max-height: 425px;
     }
 
     .hobbies_interests h4 {
@@ -227,12 +229,13 @@
         margin-bottom: 10px;
     }
 
-    .about-me h5 {
+    .aboutme_section h5 {
         font-size: 16px;
     }
 
     .resume-rightside-content {
         overflow: auto;
+        max-height: 425px;
     }
 
     .workhistory-item:before,
@@ -389,6 +392,7 @@
 
     .resume-rightside-content {
         overflow: auto;
+        max-height: 425px;
     }
 
     .workhistory-item:before,
@@ -581,6 +585,7 @@
 
     .resume-rightside-content {
         overflow: auto;
+        max-height: 750px;
     }
 
     .resume-rightside-content h3 {

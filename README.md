@@ -180,27 +180,50 @@ HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 
 ### HTML5 & CSS3 Validation
+
 I have chosen to do the HTML5 and CSS3 validation first because this will reveal any non-compliant code within my project. If there is any non-compliant code this will be the first step of testing and debugging.
 
 #### Homepage (index.html)
 
+After running the HTML5 online validation, the results came in that my button elements could not be a descendant of the a element.
+
+PDF File Link Here With Errors -> [Visit PDF](#)
+
+To make the code compliant I had to remove the a element and contain the button element inside of a form element. I also had to put the href link in the form action and change the button type from button to submit.
+
+PDF File Link Here With No Errors -> [Visit PDF](#)
 
 #### Resume Page (my_resume.html)
 
+After running the HTML5 online validation, the results came in that I was using the center element which is obsolete and that I had to use CSS to center my elements. I was using an attribute incorrectly, I called it date-education and date-history. Another issue is that I mistakenly gave a bad value to one of the progress bars.
+PDF File Link Here With Errors -> [Visit PDF](#)
+
+To make the code compliant I got rid of the center elements and created a classes for the elements. Then I used the CSS the margin-left and margin-right auto to center my elements. I then fixed the attribute error very easily because I made a simple name mistake, because I had put date instead of data. The last fix was also easy and found in my JavaScript progress bar, I changed the bad value from 100% to 100.
+
+PDF File Link Here With No Errors -> [Visit PDF](#)
 
 #### Project Page (my_projects.html)
 
+After running the HTML5 online validation, the results came in same as my index.html that my button could not be a descendant from an a element. Also my comment line was too long and had to be shortened.
+
+PDF File Link Here With Errors -> [Visit PDF](#)
+
+To make the code compliant I had shortened the comment lines as well as removing the a elements. I then added in a form elements for the buttons and made the form actions linked to the websites URLs.
+
+PDF File Link Here With No Errors -> [Visit PDF](#)
 
 #### Contact Page (contact_me.html)
+
+After running the HTML5 online validation, the contact page came out with no errors.
+
+PDF File Link Here With No Errors -> [Visit PDF](#)
 
 
 ## Deployment
 
-
 ## Credits
 
 ### Content
-
 
 ### Media
 
