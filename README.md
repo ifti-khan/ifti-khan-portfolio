@@ -167,4 +167,41 @@ Here is a list of programming languages used to create this project along with a
     * Font awesome has been used for its icons which have been used throughout to give the project good visual elements and to help give a good user experience.
 
 * Hover Effects CSS3 -> [Visit Site]( https://ianlunn.github.io/Hover/)
-    * The hover effect that I have chosen is the Back Pulse transition and this has been used on the navigation bar, so when a user hovers over the navigation button the back will pulse.
+    * The hover effect that I have chosen is the Sweep To Right background transition and this has been used on the navigation bar and buttons to give a nice simple hover effect.
+
+* Paint 3D -> [Visit Site]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
+    * Paint 3D was used to crop screenshot images and then saved to an appropriate image format.
+
+## Testing
+
+Here in this section i will be conducting a variety of different test to thoroughly make sure the website is fully functioning. I will also do HTML5 validation as well as CSS3 validation using the online W3C validation tool.
+
+HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
+CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
+
+### HTML5 & CSS3 Validation
+I have chosen to do the HTML5 and CSS3 validation first because this will reveal any non-compliant code within my project. If there is any non-compliant code this will be the first step of testing and debugging.
+
+#### Homepage (index.html)
+
+
+#### Resume Page (my_resume.html)
+
+
+#### Project Page (my_projects.html)
+
+
+#### Contact Page (contact_me.html)
+
+
+## Deployment
+
+
+## Credits
+
+### Content
+
+
+### Media
+
+### Acknowledgements

@@ -249,6 +249,13 @@ body {
     margin-bottom: 20px;
 }
 
+.aboutme_section,
+.skills_section,
+.hobbies_interests_section {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #workhistory {
     margin-bottom: 15px;
 }
@@ -270,7 +277,7 @@ body {
 }
 
 .workhistory-item:before {
-    content: attr(date-history);
+    content: attr(data-datehistory);
     position: absolute;
     display: block;
     left: 16px;
@@ -312,7 +319,7 @@ body {
 }
 
 .education-item:before {
-    content: attr(date-education);
+    content: attr(data-dateeducation);
     position: absolute;
     display: block;
     right: 16px;
