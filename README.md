@@ -218,6 +218,19 @@ After running the HTML5 online validation, the contact page came out with no err
 
 PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/contact_page_validation_results_no_errors.pdf)
 
+### Main CSS (style.css)
+
+After running the CSS3 online validation, the results came in and I had no errors, but I did have a warning of which doesn’t impact the CSS3 validation. The warning was in regards to the google font imports I have done in my CSS file.
+
+PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/css3/main_css_validation_results_no_errors.pdf)
+
+### Media Queries (media_queries.css)
+
+After running the CSS3 online validation, the results came in and I had no errors or warnings.
+
+PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/css3/media_queries_validation_results_no_errors.pdf)
+
+
 
 ## Deployment
 
