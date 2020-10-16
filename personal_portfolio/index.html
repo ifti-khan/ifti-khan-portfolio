@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Here in the head i have set the characater type, i have also set the viewport for responsiveness and have linked the bootstrap v4.5.2, fontawesome v5.14.0 hover v2.1.1 stylesheets as well as my own 2 stylesheets style.css is my main stylesheet and one for media queries-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +17,8 @@
 
 <body>
     <header>
+        <!--Here in the header element i have used bootstrap to create my header which consist of a profile picture, home link embedded within the profile picture, my main headings and a link to a new tab to view, download or print my CV-->
+
         <div class="row no-gutter">
             <div id="top"></div>
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 profile_link">
@@ -36,6 +40,8 @@
     </header>
 
     <nav>
+        <!--Here in the nav element i have used bootstrap to create my naviation bar, it consists of four links to the four of the main pages within the website. i have also added a hover animation class to the nav bar to give a nice little effect for users. the empty space divs are for larger screens to center out my navigation bar-->
+
         <div class="row no gutter nav_bar_con">
             <div class="col-lg-2 empty-nav-space"></div>
             <div class="col-12 col-md-3 col-lg-2 home-link hvr-sweep-to-right current_page">
@@ -61,6 +67,8 @@
             <div class="col-lg-2 empty-nav-space"></div>
         </div>
     </nav>
+
+    <!--Here is my main content section for my index page, it has been broken into to sections this is the top row section. Here i have created 3 columns in the row using bootstrap grid system for my brief resume captions. Each caption has a button that is directly linked to my resume page and to that exact section of the page via anchor links-->
 
     <div class="main_content">
         <div class="row no-gutter top-row">
@@ -91,6 +99,9 @@
             </div>
         </div>
 
+
+        <!--Here is the bottom row section to my main content section, like the top row it contains small captions with buttons that are directly linked to my resume page to that exact section via anchor links. There are also 2 empty columns here to push my content more towards the center for medium and larger screen sizes-->
+
         <div class="row no-gutter bottom-row">
             <div class="col-12 col-md-2 col-lg-2 col-xl-2 empty-content-space">
             </div>
@@ -116,6 +127,8 @@
     </div>
 
     <footer>
+        <!--Here is my footer section created using bootstrap, within the footer there is one row with three columns. In one column it contain links to my contact me page as well as my direct email address showing which is also linked to my contact page. There is also a link to my projects page. Another column has social icons which are directly linked to my social media and the last column there is PDF icon that is directly linked to my CV which can be viewed, printed or downloaded by a user-->
+
         <div class="row no-gutter footer-container">
 
             <div class="col-12 col-md-4 email_project_link">
@@ -152,6 +165,8 @@
                     <h5 id="dlcv_footer_head">Download My CV <i class="fas fa-arrow-circle-down" aria-hidden="true"></i></h5>
                     <span id="dl_icon"><i class="fas fa-file-pdf" aria-hidden="true"></i><br></span>
                 </a>
+
+                <!--This anchor link is for users on smartphones, this will help them return to the top of the page with a single tap. This link will only display on smartphones screen sizes because it has been disabled for other screen sizes and this was done using the css display feature.-->
 
                 <a href="#top" class="back-to-top">Back To Top <i class="fas fa-arrow-circle-up" aria-hidden="true"></i></a>
 
