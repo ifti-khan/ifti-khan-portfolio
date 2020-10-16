@@ -1,0 +1,46 @@
+<!--Here i have declared the doctype and language in the html file for the web browser-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Here in the head i have set the characater type, i have also set the viewport for responsiveness and have linked the bootstrap v4.5.2, fontawesome v5.14.0 hover v2.1.1 stylesheets as well as my own 2 stylesheets style.css is my main stylesheet and one for media queries-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="stylesheet" href="../css/media_queries.css" type="text/css" />
+    <title>IK Personal Portfolio Message 501</title>
+</head>
+
+<body>
+    <!--Here in the body section i have created a few heading element to politely inform users that the contact form is not fully functional and will not send a message to me. But if they would like to get in contact with me they can email me directly to the email displayed in the headings. Some icon elements have been added to the page so it does not look dull and plain and breaks up the page information nicely and a home button added to go back to the homepage.-->
+
+    <div class="message_content">
+        <div class="row no-gutter">
+            <div class="col-12">
+                <h1>Sorry for the inconvenience</h1>
+                <h2>This site feature is under construction</h2>
+                <i class="col-12 fas fa-toolbox construction-icon" aria-hidden="true"></i>
+                <h3>if you wish to get in touch with me</h3>
+                <h3>please email me directly at</h3>
+                <i class="col-12 fas fa-at email-icon"></i>
+                <h3 id="email-message">ifti-khan@outlook.com</h3>
+            </div>
+        </div>
+
+        <div class="row no-gutter">
+            <div class="col-12 form-home-btn">
+
+                <form action="/personal_portfolio/index.html">
+                    <button type="submit" class="btn btn-outline-secondary hvr-sweep-to-right home-btn"><i class="fas fa-home"></i>Homepage</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

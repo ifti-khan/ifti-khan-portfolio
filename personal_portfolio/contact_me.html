@@ -42,7 +42,7 @@
     <nav>
         <!--Here in the nav element i have used bootstrap to create my naviation bar, it consists of four links to the four of the main pages within the website. i have also added a hover animation class to the nav bar to give a nice little effect for users. the empty space divs are for larger screens to center out my navigation bar-->
 
-        <div class="row no gutter nav_bar_con">
+        <div class="row no-gutter nav_bar_con">
             <div class="col-lg-2 empty-nav-space"></div>
             <div class="col-12 col-md-3 col-lg-2 home-link hvr-sweep-to-right">
                 <a href="index.html">
@@ -83,19 +83,18 @@
             </div>
         </div>
 
-        <!--Here is the main section containing the contact form for user to fill out to get in contact me with. Each input field has a required validation which means to complete and send the form all field have to be filled in.-->
+        <!--Here is the main section containing the contact form for user to fill out to get in contact me with. Each input field has a required validation which means to complete and send the form all field have to be filled in. Once the form is filled in and sent it will take them to another page informing them that the send feature is not working. my direct email will be displayed along with a button to take them back to the homepage-->
 
         <div class="row no-gutter">
 
             <!--empty divs to push out and center my contact form, but will only show up on larger screens-->
             <div class="col-xl-2"></div>
-
             <div class="col-12 col-md-12 col-lg-12 col-xl-8 contact_form">
-                <form>
+                <form action="assets/pages/message_501.html">
 
                     <input type="text" id="fullname" placeholder="Name" required>
 
-                    <input type="text" id="mobile" placeholder="Number" required>
+                    <input type="number" id="mobile" placeholder="Number" required>
 
                     <input type="email" id="email" placeholder="Email" required>
 
@@ -103,7 +102,7 @@
 
                     <textarea id="message" placeholder="Message" rows="6" required></textarea>
 
-                    <input type="submit" class="btn btn-outline-secondary hvr-sweep-to-right send-btn" value="Send">
+                    <button type="submit" class="btn btn-outline-secondary hvr-sweep-to-right send-btn">send</button>
                 </form>
             </div>
 
@@ -154,7 +153,6 @@
                 </a>
 
                 <!--This anchor link is for users on smartphones, this will help them return to the top of the page with a single tap. This link will only display on smartphones screen sizes because it has been disabled for other screen sizes and this was done using the css display feature.-->
-
                 <a href="#top" class="back-to-top">Back To Top <i class="fas fa-arrow-circle-up" aria-hidden="true"></i></a>
 
             </div>

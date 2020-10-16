@@ -42,7 +42,7 @@
     <nav>
         <!--Here in the nav element i have used bootstrap to create my naviation bar, it consists of four links to the four of the main pages within the website. i have also added a hover animation class to the nav bar to give a nice little effect for users. the empty space divs are for larger screens to center out my navigation bar-->
 
-        <div class="row no gutter nav_bar_con">
+        <div class="row no-gutter nav_bar_con">
             <div class="col-lg-2 empty-nav-space"></div>
             <div class="col-12 col-md-3 col-lg-2 home-link hvr-sweep-to-right">
                 <a href="index.html">
@@ -75,7 +75,7 @@
 
             <!--Here is the left column of the page and here i have created a column breakpoint that takes up 4 column for tablets and 3 columns for larger screens. this column contains my headings. These headings are anchor links and they are linked to the right column to specific headings such as the about me, work history, education, skills and hobbies and interests-->
 
-            <div class="col-12 col-md-4 col-lg-3 resume-leftside-content">
+            <div class="col-md-4 col-lg-3 resume-leftside-content">
                 <div id="about-me-anchor">
                     <a href="#aboutme">
                         <h3>About Me</h3>
@@ -108,8 +108,9 @@
             <div class="col-12 col-md-8 col-lg-9 resume-rightside-content">
                 <div class="col-12 col-xl-10 aboutme_section">
                     <h3 id="aboutme">About Me</h3>
-                    <h5>A self-driven individual who has taught himself the majority of the skills needed in the IT industry. Eager to learn new skills, determined to achieve targets and take on new challenges. Currently seeking a rewarding opportunity to contribute and to grow within the IT industry.</h5>
+                    <p>A self-driven individual who has taught himself the majority of the skills needed in the IT industry. Eager to learn new skills, determined to achieve targets and take on new challenges. Currently seeking a rewarding opportunity to contribute and to grow within the IT industry.</p>
                 </div>
+
 
                 <!--Here is my work history section and i thought it best to be represented in a timeline format, the inspiration came from the rose mini project timeline. The timeline is within a column that takes up 12 grid columns on a mobile device, 11 for tablet, 11 for laptops and 9 for larger screens. again an empty div has been created to help center my content. i thought a timeline would be the best representation for my work history.-->
 
@@ -117,20 +118,20 @@
                     <h3 id="workhistory">Work History</h3>
                     <div class="row">
                         <div class="col-md-1 col-lg-1 col-xl-3 empty-col-history"></div>
-                        <div class="col-12 col-md-11 col-lg-11 col-xl-9 history-items">
-                            <div class="workhistory-item" data-datehistory="Aug 2015 - Present">
+                        <div class="col-12 col-md-11 col-lg-11 col-xl-9 workhistory-borderline">
+                            <div class="workhistory-timeline" data-datehistory="Aug 2015 - Present">
                                 <h4>Goldline Taxis St Albans</h4>
                                 <h6>Technical Engineer</h6>
                             </div>
-                            <div class="workhistory-item" data-datehistory="Oct 2013 - Aug 2015">
+                            <div class="workhistory-timeline" data-datehistory="Oct 2013 - Aug 2015">
                                 <h4>MCD Security Systems</h4>
                                 <h6>Junior Security Engineer</h6>
                             </div>
-                            <div class="workhistory-item" data-datehistory="Jun 2013 - Apr 2014">
+                            <div class="workhistory-timeline" data-datehistory="Jun 2013 - Apr 2014">
                                 <h4>Freelance Web Developer</h4>
                                 <h6>Developer &amp; Administrator</h6>
                             </div>
-                            <div class="workhistory-item" data-datehistory="Jun 2011 - June 2012">
+                            <div class="workhistory-timeline" data-datehistory="Jun 2011 - June 2012">
                                 <h4>Viglen LTD</h4>
                                 <h6>IT Implementation Engineer</h6>
                             </div>
@@ -139,30 +140,32 @@
                     </div>
                 </div>
 
+
+
                 <!--Here is my education section and again i thought it best to represent it in a timeline format just like my work history section. The education section is within a column that take up 12 column of the grid on a mobile device, 11 for tablet, 11 for laptops and 9 for larger screens. again an empty div has been created to help center my content. -->
 
                 <div class="col-12">
                     <h3 id="education">Education</h3>
                     <div class="row no-gutter">
-                        <div class="col-12 col-md-11 col-lg-11 col-xl-9 education-items">
-                            <div class="education-item" data-dateeducation="2020 - Present">
+                        <div class="col-12 col-md-11 col-lg-11 col-xl-9 education-borderline">
+                            <div class="education-timeline" data-dateeducation="2020 - Present">
                                 <h4>The Code Institute</h4>
                                 <h6>Trainee Fullstack Web Developer</h6>
                             </div>
-                            <div class="education-item" data-dateeducation="2009 - 2013">
+                            <div class="education-timeline" data-dateeducation="2009 - 2013">
                                 <h4>University of Hertfordshire</h4>
                                 <h6>BSc (Hons) (SW) Information Technology<br>
                                     (Web-Based Systems)</h6>
                             </div>
-                            <div class="education-item" data-dateeducation="2007 - 2009">
+                            <div class="education-timeline" data-dateeducation="2007 - 2009">
                                 <h4>Oaklands College St Albans</h4>
                                 <h6>BTEC National Diploma</h6>
                             </div>
-                            <div class="education-item" data-dateeducation="2006 - 2007">
+                            <div class="education-timeline" data-dateeducation="2006 - 2007">
                                 <h4>Oaklands College St Albans</h4>
                                 <h6>BTEC First Diploma</h6>
                             </div>
-                            <div class="education-item" data-dateeducation="2001 - 2006">
+                            <div class="education-timeline" data-dateeducation="2001 - 2006">
                                 <h4>Verulam School </h4>
                                 <h6>6 GCSE A-C</h6>
                             </div>
@@ -209,19 +212,19 @@
 
                 </div>
 
-                <!--This section contains a few key hobbies and interests of mine. they are within a 12 column grid for all device sizes. i included icons to help give a better visual element.-->
 
+                <!--This section contains a few key hobbies and interests of mine. they are within a 12 column grid for all device sizes. i included icons to help give a better visual element.-->
 
                 <div class="col-12 hobbies_interests_section">
                     <h3 id="hobbies">Hobbies &amp; Interests</h3>
-                    <h4><strong><i class="fas fa-dumbbell"></i> Fitness:</strong> Workout and exercise by taking part in sporting activities such as rugby, football and boxing.</h4><br>
+                    <p><strong><i class="fas fa-dumbbell"></i> Fitness:</strong> Workout and exercise by taking part in sporting activities such as rugby, football and boxing.</p><br>
 
-                    <h4><strong><i class="fas fa-laptop-code"></i> Technology:</strong> Research, modify and experiment with both hardware and software due to its rapid evolution.</h4><br>
+                    <p><strong><i class="fas fa-laptop-code"></i> Technology:</strong> Research, modify and experiment with both hardware and software due to its rapid evolution.</p><br>
 
-                    <h4><strong><i class="fas fa-laptop-medical"></i> Device Repairs:</strong>
-                        Rebuilding laptops and desktops both hardware and software as well as repairing smartphones and smart devices.</h4><br>
+                    <p><strong><i class="fas fa-laptop-medical"></i> Device Repairs:</strong>
+                        Rebuilding laptops and desktops both hardware and software as well as repairing smartphones and smart devices.</p><br>
 
-                    <h4><strong><i class="fas fa-toolbox"></i> DIY:</strong> Being hands on and having the creativity and skill to start a project, plus the patients and determination to see a project through to the end no matter what obstacle.</h4><br>
+                    <p><strong><i class="fas fa-toolbox"></i> DIY:</strong> Being hands on and having the creativity and skill to start a project, plus the patients and determination to see a project through to the end no matter what obstacle.</p><br>
 
                 </div>
             </div>
@@ -270,7 +273,6 @@
                 </a>
 
                 <!--This anchor link is for users on smartphones, this will help them return to the top of the page with a single tap. This link will only display on smartphones screen sizes because it has been disabled for other screen sizes and this was done using the css display feature.-->
-
                 <a href="#top" class="back-to-top">Back To Top <i class="fas fa-arrow-circle-up" aria-hidden="true"></i></a>
 
             </div>

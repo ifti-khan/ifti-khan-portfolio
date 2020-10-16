@@ -1,30 +1,30 @@
-/****************************************Media Queries Start*/
+/***Media Queries***/
 
-/****************************************Larger Laptops 1440px*/
+/***Larger Laptops 1440px***/
 @media (max-width: 1440px) {
 
+    /***my_resume.html***/
     .resume-rightside-content {
         overflow: auto;
         max-height: 450px;
     }
 
+    /***my_projects.html***/
     .project_content h2 {
         margin-bottom: 5px;
         padding-top: 10px;
-        padding-left: 10px;
         font-size: 26px;
     }
 
-    .project_content h5 {
-        padding-left: 10px;
+    .project_content p {
         font-size: 17px;
     }
 
     .visit-site-btn {
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-top: 0px;
     }
 
+    /***contact_me.html***/
     .contact_content h3 {
         text-align: center;
         margin-top: 15px;
@@ -49,13 +49,12 @@
         width: 125px;
         font-size: 20px;
     }
-
-
-
 }
 
-/****************************************Laptops 1024px*/
+/***Laptops 1024px***/
 @media (max-width: 1024px) {
+
+    /***Heading***/
     #head-fname {
         margin-top: 30px;
         font-size: 70px;
@@ -81,24 +80,27 @@
         margin-bottom: 35px;
     }
 
+    /***Navigation***/
     .nav_bar_con h3 {
         font-size: 15px;
     }
 
+    /***index.html***/
     .main-con-head {
         border: 10px solid white;
     }
 
+    /***my_resume.html***/
     .resume-leftside-content h3 {
         font-size: 20px;
     }
 
-    .workhistory-item {
+    .workhistory-timeline {
         font-size: 12px;
         padding-left: 75px;
     }
 
-    .education-item {
+    .education-timeline {
         font-size: 12px;
         padding-right: 25px;
     }
@@ -112,26 +114,25 @@
         max-height: 425px;
     }
 
-    .hobbies_interests h4 {
+    .resume-rightside-content p {
         font-size: 18px;
     }
 
+    /***my_projects.html***/
     .project_content h2 {
         padding-top: 0;
-        padding-left: 5px;
-        font-size: 28px;
+        font-size: 25px;
     }
 
-    .project_content h5 {
-        padding-left: 5px;
-        font-size: 19px;
+    .project_content p {
+        font-size: 17px;
     }
 
     .visit-site-btn {
-        margin-top: 10px;
-        margin-left: 5px;
+        margin-top: 0px;
     }
 
+    /***contact_me.html***/
     .contact_content h3 {
         text-align: center;
         margin-top: 15px;
@@ -157,6 +158,7 @@
         font-size: 20px;
     }
 
+    /***Footer***/
     #email_footer_head,
     #email_address_head,
     #project_footer_head,
@@ -174,12 +176,12 @@
     .download_cv_link {
         padding-top: 25px;
     }
-
 }
 
-/****************************************Small Laptops 991px*/
+/***Small Laptops 991px***/
 @media (max-width: 991px) {
 
+    /***Heading***/
     .headings {
         text-align: center;
     }
@@ -208,10 +210,7 @@
         font-size: 17px
     }
 
-    .empty-nav-space {
-        display: none;
-    }
-
+    /***Navigation***/
     .home-link {
         border-left: none;
     }
@@ -220,6 +219,7 @@
         border-right: none;
     }
 
+    /***my_resume.html***/
     .resume-leftside-content h3 {
         font-size: 20px;
     }
@@ -238,29 +238,33 @@
         max-height: 425px;
     }
 
-    .workhistory-item:before,
-    .education-item:before {
+    .resume-rightside-content p {
+        font-size: 18px;
+    }
+
+    .workhistory-timeline:before,
+    .education-timeline:before {
         position: initial;
     }
 
-    .workhistory-item:after {
+    .workhistory-timeline:after {
         left: 103px;
     }
 
-    .education-item:after {
+    .education-timeline:after {
         right: 58px;
     }
 
-    .workhistory-item {
+    .workhistory-timeline {
         margin-left: -130px;
     }
 
-    .education-item {
+    .education-timeline {
         margin-right: -85px;
     }
 
-    .workhistory-item,
-    .education-item {
+    .workhistory-timeline,
+    .education-timeline {
         font-size: 15px;
         font-weight: 900;
     }
@@ -271,16 +275,13 @@
         font-size: 18px;
     }
 
-    .hobbies_interests h4 {
-        font-size: 16px;
-    }
-
+    /***my_projects.html***/
     .project_content h2 {
         text-align: center;
         padding-top: 0;
     }
 
-    .project_content h5 {
+    .project_content p {
         font-size: 18px;
         text-align: center;
         padding-top: 10px;
@@ -316,9 +317,10 @@
     }
 }
 
-/****************************************Tablet 768px*/
+/***Tablet 768px***/
 @media (max-width: 768px) {
 
+    /***Heading***/
     #head-fname {
         margin-top: 20px;
         font-size: 60px;
@@ -356,10 +358,7 @@
         text-align: center;
     }
 
-    .empty-nav-space {
-        display: none;
-    }
-
+    /***Navigation***/
     .home-link {
         border-left: none;
     }
@@ -372,6 +371,9 @@
         font-size: 15px;
     }
 
+    /***Main Content***/
+
+    /***index.html***/
     .top-row,
     .bottom-row {
         margin-left: 0;
@@ -381,6 +383,7 @@
         border: 5px solid white;
     }
 
+    /***my_resume.html***/
     .resume-leftside-content h3 {
         font-size: 20px;
     }
@@ -395,30 +398,35 @@
         max-height: 425px;
     }
 
-    .workhistory-item:before,
-    .education-item:before {
+    .resume-rightside-content p {
+        font-size: 16px;
+    }
+
+    .workhistory-timeline:before,
+    .education-timeline:before {
         position: initial;
     }
 
-    .workhistory-item,
-    .education-item {
-        margin: 0;
+    .workhistory-timeline {
+        margin-bottom: 25px;
     }
 
-    .workhistory-item:after {
-        left: -27px;
+    .education-timeline {
+        margin-right: -65px;
+        margin-bottom: 25px;
     }
 
-    .education-item:after {
-        right: -27px;
+    .education-timeline:after {
+        right: 38px;
     }
 
+    /***my_project.html***/
     .project_content h2 {
         text-align: center;
         padding-top: 0px;
     }
 
-    .project_content h5 {
+    .project_content p {
         font-size: 18px;
         text-align: center;
     }
@@ -452,6 +460,7 @@
         margin-top: 10px;
     }
 
+    /***contact_me.html***/
     .contact_content h3 {
         text-align: center;
         margin-top: 15px;
@@ -477,6 +486,7 @@
         font-size: 20px;
     }
 
+    /***Footer***/
     #email_footer_head,
     #email_address_head,
     #project_footer_head,
@@ -494,25 +504,14 @@
     .download_cv_link {
         padding-top: 25px;
     }
-
 }
 
-/****************************************Smartphone 425px*/
+/***Smartphone 425px***/
 @media (max-width: 425px) {
 
+    /***Header***/
     .main_headings_con {
         border-left: none;
-    }
-
-    .home-link,
-    .resume-link,
-    .project-link,
-    .contact-link {
-        border-left: none;
-    }
-
-    .contact-link {
-        border-right: none;
     }
 
     #head-fname {
@@ -523,7 +522,6 @@
         margin-bottom: 35px;
         border-left: none;
         text-align: center;
-
     }
 
     #head-title {
@@ -552,15 +550,22 @@
         text-align: center;
     }
 
-    .empty-nav-space {
-        display: none;
-    }
-
+    /***Navigation***/
     .nav_bar_con h3 {
         font-size: 18px;
     }
 
-    .empty-nav-space,
+    .home-link,
+    .resume-link,
+    .project-link,
+    .contact-link {
+        border-left: none;
+    }
+
+    .contact-link {
+        border-right: none;
+    }
+
     .home-link,
     .resume-link,
     .project-link,
@@ -568,6 +573,9 @@
         border-bottom: 2px solid #fff;
     }
 
+    /***Main Content***/
+
+    /***index.html***/
     .top-row,
     .bottom-row {
         margin-left: 0;
@@ -577,15 +585,14 @@
         border: 5px solid white;
     }
 
-    .empty-content-space,
-    .empty-col-history,
+    /***my_resume.html*/
     .resume-leftside-content {
         display: none;
     }
 
     .resume-rightside-content {
-        overflow: auto;
-        max-height: 750px;
+        overflow: initial;
+        min-height: 265vh;
     }
 
     .resume-rightside-content h3 {
@@ -593,24 +600,30 @@
         margin-bottom: 10px;
     }
 
-    .workhistory-item:before,
-    .education-item:before {
+    .resume-rightside-content p {
+        font-size: 16px;
+    }
+
+    .workhistory-timeline:before,
+    .education-timeline:before {
         position: initial;
     }
 
-    .workhistory-item {
+    .workhistory-timeline {
         margin-left: -75px;
+        margin-bottom: 25px;
     }
 
-    .education-item {
+    .education-timeline {
         margin-right: -25px;
+        margin-bottom: 25px;
     }
 
-    .workhistory-item:after {
+    .workhistory-timeline:after {
         left: 48px;
     }
 
-    .education-item:after {
+    .education-timeline:after {
         right: -2px;
     }
 
@@ -622,6 +635,7 @@
         font-size: 15px;
     }
 
+    /***my_projects.html***/
     .project_content {
         margin: 5px;
         margin-top: 0px;
@@ -632,7 +646,7 @@
         padding-top: 0px;
     }
 
-    .project_content h5 {
+    .project_content p {
         font-size: 18px;
         text-align: center;
     }
@@ -654,6 +668,7 @@
         margin-top: 0px;
     }
 
+    /***contact_me.html***/
     .contact_content h3 {
         text-align: center;
         margin-top: 15px;
@@ -679,6 +694,7 @@
         font-size: 20px;
     }
 
+    /***Footer***/
     #social_icons,
     #dl_icon {
         font-size: 25px;
@@ -693,6 +709,18 @@
     .back-to-top {
         display: initial;
     }
-}
 
-/****************************************Media Quries End*/
+    /***message_501.html***/
+    .message_content h1 {
+        font-size: 31px;
+    }
+
+    .message_content h2 {
+        font-size: 29px;
+    }
+
+    #email-message {
+        font-size: 24px;
+    }
+
+}

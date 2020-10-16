@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
 body {
     font-family: "Exo 2", sans-serif;
+    color: #000000;
     margin: 0;
     padding: 0;
     border: 0;
@@ -12,11 +13,13 @@ body {
     margin-left: 0px;
 }
 
-/****************************************Header Section Start*/
-/*darkgrey color code #a9a9a9*/
+a {
+    color: #000000;
+}
 
+/***Header***/
 .profile_pic {
-    background-color: #888888;
+    background-color: #a9a9a9;
     width: 100%;
     height: 100%;
     filter: grayscale(50%);
@@ -96,10 +99,7 @@ body {
     text-shadow: -1px -1px 25px #000000;
 }
 
-/****************************************Header Section End*/
-
-/****************************************Navigation Section Start*/
-
+/***Navigation***/
 .nav_bar_con h3 {
     margin: 0;
     text-transform: uppercase;
@@ -109,7 +109,7 @@ body {
 }
 
 .empty-nav-space {
-    background-color: lightgray;
+    background-color: #d3d3d3;
 }
 
 .home-link,
@@ -117,14 +117,14 @@ body {
 .project-link,
 .contact-link {
     border-left: 2px solid #ffffff;
-    background-color: lightgray;
+    background-color: #d3d3d3;
     padding: 10px 0px;
     text-align: center;
 }
 
 .contact-link {
     border-right: 2px solid #ffffff;
-    background-color: lightgray;
+    background-color: #d3d3d3;
     padding: 10px 0px;
     text-align: center;
 }
@@ -139,19 +139,18 @@ body {
 }
 
 .current_page {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #000000;
 }
 
-/****************************************Sweep To Right Hover Section Start*/
+/***Sweep To Right Hover***/
+/*I took this fragment of css from hover.css to change the background color from is default color*/
 .hvr-sweep-to-right:before {
     background: rgba(0, 0, 0, .5);
 }
 
-/****************************************Sweep To Right Hover Section
-/****************************************Navigation Section End*/
+/***Main Content***/
 
-/****************************************Main Content Section End*/
-/****************************************index.html Start*/
+/***index.html***/
 .top-row,
 .bottom-row {
     padding: 0;
@@ -166,18 +165,18 @@ body {
     font-weight: 700;
 }
 
-.top-row h5,
-.bottom-row h5 {
+.top-row p,
+.bottom-row p {
     letter-spacing: 1px;
     text-align: center;
+    font-size: 20px;
 }
 
 .main-con-head {
     width: 100%;
     padding: 15px;
-    border: 20px solid white;
-    background-color: lightgray;
-
+    border: 20px solid #ffffff;
+    background-color: #d3d3d3;
 }
 
 .main-con-head h5 {
@@ -192,8 +191,8 @@ body {
     display: block;
     margin: 0 auto;
     text-transform: uppercase;
-    background-color: lightgray;
-    color: black;
+    background-color: #d3d3d3;
+    color: #000000;
     letter-spacing: 3px;
     font-weight: 900;
 }
@@ -202,16 +201,13 @@ body {
     background-color: #a9a9a9;
 }
 
-/****************************************index.html End*/
-
-/****************************************my_resume.html Start*/
+/***my_resume.html***/
 .resume-leftside-content {
-    background-color: lightgray;
+    background-color: #d3d3d3;
     text-align: center;
     letter-spacing: 2px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
 }
 
 .resume-leftside-content h3 {
@@ -221,12 +217,12 @@ body {
 }
 
 .resume-leftside-content a {
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
 .resume-leftside-content a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .resume-rightside-content {
@@ -234,6 +230,10 @@ body {
     letter-spacing: 2px;
     overflow: auto;
     height: 50vh;
+}
+
+.resume-rightside-content p {
+    font-size: 20px;
 }
 
 .resume-rightside-content h3 {
@@ -260,23 +260,22 @@ body {
     margin-bottom: 15px;
 }
 
-.history-items {
-    border-left: 5px solid black;
+.workhistory-borderline {
+    border-left: 5px solid #000000;
 }
 
-.workhistory-item {
+.workhistory-timeline {
     margin-bottom: 20px;
     position: relative;
     font-weight: 900;
 }
 
-.workhistory-item h4 {
+.workhistory-timeline h4 {
     font-size: 20px;
     letter-spacing: 4px;
-
 }
 
-.workhistory-item:before {
+.workhistory-timeline:before {
     content: attr(data-datehistory);
     position: absolute;
     display: block;
@@ -286,7 +285,7 @@ body {
     margin: 0;
 }
 
-.workhistory-item:after {
+.workhistory-timeline:after {
     width: 20px;
     height: 20px;
     display: block;
@@ -302,23 +301,22 @@ body {
     margin-bottom: 15px;
 }
 
-.education-items {
-    border-right: 5px solid black;
+.education-borderline {
+    border-right: 5px solid #000000;
 }
 
-.education-item {
+.education-timeline {
     margin-bottom: 20px;
     position: relative;
     font-weight: 900;
-
 }
 
-.education-item h4 {
+.education-timeline h4 {
     font-size: 20px;
     letter-spacing: 4px;
 }
 
-.education-item:before {
+.education-timeline:before {
     content: attr(data-dateeducation);
     position: absolute;
     display: block;
@@ -328,7 +326,7 @@ body {
     margin: 0;
 }
 
-.education-item:after {
+.education-timeline:after {
     width: 20px;
     height: 20px;
     display: block;
@@ -345,38 +343,31 @@ body {
 }
 
 .html5-progress {
-    background-color: maroon;
+    background-color: #800000;
     font-size: 15px;
 }
 
 .css3-progress {
-    background-color: darkgreen;
+    background-color: #006400;
     font-size: 15px;
 }
 
 .javascript-progress {
-    background-color: darkgray;
+    background-color: #a9a9a9;
     font-size: 15px;
 }
 
 .php-progress {
-    background-color: navy;
+    background-color: #000080;
     font-size: 15px;
 }
 
 .sql-progress {
-    background-color: black;
+    background-color: #000000;
     font-size: 15px;
 }
 
-.hobbies_interests_section h4 {
-    font-size: 20px;
-}
-
-/****************************************my_resume.html End*/
-
-/****************************************my_project.html Start*/
-
+/***my_project.html***/
 .project_content {
     margin: 20px;
 }
@@ -387,18 +378,16 @@ body {
     text-decoration: underline;
     letter-spacing: 5px;
     padding-top: 40px;
-    padding-left: 25px;
 }
 
-.project_content h5 {
+.project_content p {
+    font-size: 18px;
     letter-spacing: 1px;
     margin-top: 10px;
-    padding-left: 25px;
 }
 
 .love-running-info {
     padding: 15px;
-
 }
 
 .love-running-links {
@@ -410,7 +399,7 @@ body {
 .whiskey-info a,
 .rosie-info a,
 .myproject-info a {
-    color: black;
+    color: #000000;
 }
 
 .love-running-info a:hover,
@@ -418,7 +407,7 @@ body {
 .whiskey-info a:hover,
 .rosie-info a:hover,
 .myproject-info a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .stream-info,
@@ -449,21 +438,18 @@ body {
 .visit-site-btn {
     text-transform: uppercase;
     background-color: #ffffff;
-    color: black;
+    color: #000000;
     letter-spacing: 3px;
     font-weight: 900;
     margin-top: 10px;
-    margin-left: 25px;
+
 }
 
 .visit-site-btn:hover {
     background-color: #a9a9a9;
 }
 
-/****************************************my_project.html End*/
-
-/****************************************contact_me.html Start*/
-
+/***contact_me.html***/
 .contact_content h3 {
     text-align: center;
     margin-top: 25px;
@@ -482,7 +468,7 @@ body {
 #email,
 #subject,
 #message {
-    border: 2px solid lightgray;
+    border: 2px solid #a9a9a9;
     width: 75%;
     display: block;
     margin: 15px auto;
@@ -494,21 +480,75 @@ body {
     width: 150px;
     text-transform: uppercase;
     font-size: 22px;
-    background-color: #888888;
+    background-color: #d3d3d3;
     border: 1px solid #000000;
-    color: #fff;
+    color: #000000;
+    letter-spacing: 4px;
     display: block;
     margin: 15px auto;
 }
 
-/****************************************contact_me.html End*/
+.send-btn:hover {
+    color: #ffffff;
+    background-color: #d3d3d3;
 
-/****************************************Main Content Section End*/
+}
 
-/****************************************Footer Section Start*/
+/***message_501.html***/
+.message_content {
+    margin-top: 15px;
+}
 
+.message_content h1,
+.message_content h2,
+.message_content h3,
+.message_content h5 {
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#email-message {
+    text-transform: lowercase;
+}
+
+.construction-icon {
+    font-size: 200px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.email-icon {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.home-btn {
+    width: 175px;
+    text-transform: uppercase;
+    font-size: 22px;
+    background-color: #d3d3d3;
+    border: 1px solid #000000;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 4px;
+    display: block;
+    margin: 15px auto;
+}
+
+.home-btn:hover {
+    color: #ffffff;
+    background-color: #d3d3d3;
+
+}
+
+/***Footer***/
 .footer-container {
-    background-color: #888888;
+    background-color: #a9a9a9;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -516,7 +556,6 @@ body {
 .email_project_link,
 .social_links,
 .download_cv_link {
-
     padding-top: 15px;
     padding-bottom: 10px;
 }
@@ -544,7 +583,6 @@ body {
 #social_icons,
 #dl_icon {
     font-size: 40px;
-
 }
 
 .foot-email:hover,
@@ -558,5 +596,3 @@ body {
     color: #ffffff;
     text-decoration: none;
 }
-
-/****************************************Footer Section End*/
