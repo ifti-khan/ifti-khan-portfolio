@@ -170,10 +170,11 @@ Here is a list of programming languages used to create this project along with a
 
 # Testing
 
-Here in this section i will be conducting a variety of different test to thoroughly make sure the website is fully functioning. I will also do HTML5 validation as well as CSS3 validation using the online W3C validation tool.
+Here in this section I will be conducting a variety of different test to thoroughly make sure my project website is fully functioning. I will also do HTML5 validation a CSS3 validation using the online W3C validation tools and a contrast checker to make sure my colours meet web accessibility standard.
 
 HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
+WebAIM Contrast Checker -> [Visit Site]( https://webaim.org/resources/contrastchecker/)
 
 ### HTML5 & CSS3 Validation
 
@@ -226,6 +227,19 @@ After running the CSS3 online validation, the results came in and I had no error
 
 PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/css3/media_queries_validation_results_no_errors.pdf)
 
+### Contrast Checker
+
+Here below I have shown the online contrast checker that I used, the reason I had chosen to do this is to make sure that my project meets accessibility standards. The screenshot below shows that the background colour and foreground colour that I was using in my header and footer element did pass majority of the web accessibility contrast check but failed on one check. The original background colour used in my header element is #888888 and foreground colour #000000.
+
+![Contrast Checker Fail](#url)
+
+So I then decided to change my background colour for my header and footer element to a lighter colour and keep the foreground colour the same. The new background colour I have chosen is #D3D3D3, this is a lighter grey than the previous colour and it passed all the web accessibility contrast check criteria.
+
+![Contrast Checker Pass](#url)
+
+### Further Testing
+
+When it comes to testing and debugging I find it easier to test and debug as I go along whilst I am developing. Every time I started a new page or section for my project I made sure that I fully tested to make sure it worked correctly. This can be seen in my Git commit messages to my repository every time I pushed my completed files. Here in this section I will do the final testing for my whole project and test against my user stories.
 
 
 ## Deployment
