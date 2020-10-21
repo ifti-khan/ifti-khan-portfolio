@@ -5,8 +5,7 @@
 
     /***my_resume.html***/
     .resume-rightside-content {
-        overflow: auto;
-        max-height: 450px;
+        max-height: 55vh;
     }
 
     /***my_projects.html***/
@@ -110,8 +109,7 @@
     }
 
     .resume-rightside-content {
-        overflow: auto;
-        max-height: 425px;
+        max-height: 50vh;
     }
 
     .resume-rightside-content p {
@@ -234,8 +232,7 @@
     }
 
     .resume-rightside-content {
-        overflow: auto;
-        max-height: 425px;
+        height: 50vh;
     }
 
     .resume-rightside-content p {
@@ -394,8 +391,7 @@
     }
 
     .resume-rightside-content {
-        overflow: auto;
-        max-height: 425px;
+        max-height: 50vh;
     }
 
     .resume-rightside-content p {
@@ -592,7 +588,7 @@
 
     .resume-rightside-content {
         overflow: initial;
-        min-height: 265vh;
+        max-height: none;
     }
 
     .resume-rightside-content h3 {

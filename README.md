@@ -231,11 +231,11 @@ PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/if
 
 Here below I have shown the online contrast checker that I used, the reason I had chosen to do this is to make sure that my project meets accessibility standards. The screenshot below shows that the background colour and foreground colour that I was using in my header and footer element did pass majority of the web accessibility contrast check but failed on one check. The original background colour used in my header element is #888888 and foreground colour #000000.
 
-![Contrast Checker Fail](#url)
+![Contrast Checker Fail](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/contrast/contrast_check_fail.png)
 
 So I then decided to change my background colour for my header and footer element to a lighter colour and keep the foreground colour the same. The new background colour I have chosen is #D3D3D3, this is a lighter grey than the previous colour and it passed all the web accessibility contrast check criteria.
 
-![Contrast Checker Pass](#url)
+![Contrast Checker Pass](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/contrast/contrast_check_pass.png)
 
 ### Further Testing
 
