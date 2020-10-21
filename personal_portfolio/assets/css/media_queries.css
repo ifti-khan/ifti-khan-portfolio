@@ -3,6 +3,12 @@
 /***Larger Laptops 1440px***/
 @media (max-width: 1440px) {
 
+    /***index.html***/
+    .top-row p,
+    .bottom-row p {
+        font-size: 16px;
+    }
+
     /***my_resume.html***/
     .resume-rightside-content {
         max-height: 55vh;
@@ -87,6 +93,11 @@
     /***index.html***/
     .main-con-head {
         border: 10px solid white;
+    }
+
+    .top-row p,
+    .bottom-row p {
+        font-size: 14px;
     }
 
     /***my_resume.html***/
@@ -374,6 +385,11 @@
     .top-row,
     .bottom-row {
         margin-left: 0;
+    }
+
+    .top-row p,
+    .bottom-row p {
+        font-size: 16px;
     }
 
     .main-con-head {
