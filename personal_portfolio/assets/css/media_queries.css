@@ -11,7 +11,7 @@
 
     /***my_resume.html***/
     .resume-rightside-content {
-        max-height: 55vh;
+        max-height: 30vmax;
     }
 
     /***my_projects.html***/
@@ -120,7 +120,7 @@
     }
 
     .resume-rightside-content {
-        max-height: 50vh;
+        max-height: 42vmax;
     }
 
     .resume-rightside-content p {
@@ -240,10 +240,6 @@
 
     .aboutme_section h5 {
         font-size: 16px;
-    }
-
-    .resume-rightside-content {
-        max-height: 50vh;
     }
 
     .resume-rightside-content p {
@@ -407,7 +403,7 @@
     }
 
     .resume-rightside-content {
-        max-height: 50vh;
+        max-height: 50vmax;
     }
 
     .resume-rightside-content p {
