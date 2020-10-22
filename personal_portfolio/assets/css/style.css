@@ -229,7 +229,7 @@ a {
     text-align: center;
     letter-spacing: 2px;
     overflow: auto;
-    max-height: 25vmax;
+    max-height: 30vmax;
 }
 
 .resume-rightside-content p {
@@ -377,7 +377,7 @@ a {
     text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 5px;
-    padding-top: 40px;
+    font-size: 30px;
 }
 
 .project_content p {
