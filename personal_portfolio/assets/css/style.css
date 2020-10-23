@@ -449,6 +449,18 @@ a {
     background-color: #a9a9a9;
 }
 
+#readme_link {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#readme_link:hover {
+    color: #800000;
+}
+
+
+
 /***contact_me.html***/
 .contact_content h3 {
     text-align: center;
