@@ -31,23 +31,20 @@ The website will also incorporate an eye catching design that will draw website 
 
 ## User Stories
 
-Here in this section you will find a variety of user stories, since I am developing a personal portfolio website. The target audience for my personal portfolio project will be Job Recruitment Agencies, Employers, Developers, Contractors, Businesses, Friends and Family.
+Here in this section you will find a variety of user stories, since I am developing a personal portfolio website. The target audience for my personal portfolio project will be Job Recruitment Agencies, Employers, Developers, Contractors and Businesses.
 
-* As a recruiter/employer, I would like to see key information provided by the developer, so that I do not have to read through multiple paragraphs of information to get to the key information I am looking for.
+* As a user, I want to be able to find and view the CV document, so that I can find out more about the applicant applying for a job role.
 
-* As a contractor, I want to be able to see this developer’s personal information, so that I can get in contact with the developer for contract work or collaborations.
+* As a user, I want to see visual markers to help with navigation, so as I navigate through the website I know where I am and what I am clicking on.
 
-* As a first time visitor, I want to be able to easily navigate around the website, so that I can view the website content with ease and without any issues.
+* As a user, I would like to see small key chunks of information about the developer, so that I can get a small overview of the developer and have the option to find out more.
 
-* As a website visitor, I want the website to be responsive, so that I can view it on a smart device like a smartphone or tablet.
+* As a user, I want to be able to see live links to other projects, so that I can see the level of development and skills the developer has to offer.
 
-* As a future employer, I want to be able to find and view the CV document easily, so that I can find out more about the applicant applying for a job role.
+* As a user, I want there to be an easy way to contact the portfolio developer, so that if I have any further question to ask I am able to do so.
 
-* As a recruiter/employer, I want there to be an easy way to contact the portfolio developer, so that if I have any further question to ask I am able to so.
+* As a user, I want to able to see some social media links, so that I can follow this developer through social media if in the future I want to collaborate with this developer.
 
-* As a web developer, I want to able to see some social media links, so that I can follow this developer through social media if in the future I want to collaborate with this developer.
-
-* As a recruiter/employer/contractor, I want to be able to see live links to other projects, so that I can see the level of development and skills this developer has to offer.
 
 
 ## Wireframes
@@ -111,7 +108,7 @@ Here are a list of features that will be implemented and utilized within my proj
 
 * Feature 10 – If a user click on my profile picture I will take them back to the homepage.
 
-* Feature 11 – My email address will be displayed in the footer, also my mobile number and email will also be displayed at the bottom of the contact page.
+* Feature 11 – My direct email address will be displayed in the footer and will link to the contact page of the portfolio.
 
 ### Future Features To Implement
 
@@ -168,78 +165,41 @@ Here is a list of programming languages used to create this project along with a
 * Paint 3D -> [Visit Site]( https://www.microsoft.com/en-gb/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab)
     * Paint 3D was used to crop screenshot images and then saved to an appropriate image format.
 
-# Testing
+* Google Chrome & Chrome Dev Tools -> [Visit Site](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)
+    * Google Chrome and Chrome Dev Tools was used to help create my project as well as testing it as well.
 
-Here in this section I will be conducting a variety of different test to thoroughly make sure my project website is fully functioning. I will also do HTML5 validation a CSS3 validation using the online W3C validation tools and a contrast checker to make sure my colours meet web accessibility standard.
+# Validation
+Here in this section I will be showing a variety of different validation techniques to thoroughly make sure my project website is fully compliant. I will use the W3C HTML5 and CSS3 online validation tools to check my project is compliant.
+
+I will also use an online contrast checker to make sure my colours meet web accessibility standard. If there is any non-compliant code within the project it will be documented and then fixed and this will be the first step of my testing and debugging.
 
 HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 WebAIM Contrast Checker -> [Visit Site]( https://webaim.org/resources/contrastchecker/)
 
-### HTML5 & CSS3 Validation
+Validation Testing PDF Link -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/tree/master/documents/validation_testing.pdf)
 
-I have chosen to do the HTML5 and CSS3 validation first because this will reveal any non-compliant code within my project. If there is any non-compliant code this will be the first step of testing and debugging.
+# Testing
+When it came to testing and debugging I found it easier to test and debug as I went along using Chrome Dev Tools. Every time I started a new page or section for my project I made sure that I fully tested it to make sure it worked correctly. This can be seen in my Git commit messages to my repository every time I pushed my completed files.
 
-#### Homepage (index.html)
+In this section I will test my project by testing against my user stories, features and functional testing. I will also be conducting different test using different browsers and a variety of different screen sizes as well to ensure my projects compatibly and responsiveness.
 
-After running the HTML5 online validation, the results came in that my button elements could not be a descendant of the a element.
+# UX - User Story Testing
+The projects main purpose is to display myself to potential recruiters by providing a CV link and displaying my work history, education, skills and interests. Also a way for the recruiter to get in contact with me. So to test my project I will give examples of certain features by looking back at my user stories.
 
-PDF File Link Here With Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/homepage_validation_results_with_errors.pdf)
+UX User Story Testing PDF Link -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/tree/master/documents/user_story_testing.pdf)
 
-To make the code compliant I had to remove the a element and contain the button element inside of a form element. I also had to put the href link in the form action and change the button type from button to submit.
+# Further Testing
+I have decided to further test my project by listing all features and functions by creating a list in a table format and then manually test each one. I will test my project in a variety of different browser to ensure it is fully compatible. The browsers I have chosen are Google Chrome, Microsoft Edge, Firefox and Opera. I will test to see if all of the features and functions work as well as my font, images and project responsiveness.
 
-PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/homepage_validation_results_no_errors.pdf)
+Further Testing PDF Link -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/tree/master/documents/further_testing.pdf)
 
-#### Resume Page (my_resume.html)
+To add to the further testing I used Chrome Dev tools whilst programming my project and used the responsive tool to simulate different device sizes. I also did some physical testing on a few devices such as my Samsung Galaxy S10+, Samsung Galaxy Tab 6, Dell Inspiron 15inch Laptop and my Acer 24inch Monitor.
 
-After running the HTML5 online validation, the results came in that I was using the center element which is obsolete and that I had to use CSS to center my elements. I was using an attribute incorrectly, I called it date-education and date-history. Another issue is that I mistakenly gave a bad value to one of the progress bars.
-PDF File Link Here With Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/resume_page_validation_results_with_errors.pdf)
+# Known Issues
+* The contact form in the contact me page is not connect to a mail server and cannot send emails. To address this issue I added a message page to inform that this site feature is currently under construction and to email me directly by displaying my email.
 
-To make the code compliant I got rid of the center elements and created a classes for the elements. Then I used the CSS the margin-left and margin-right auto to center my elements. I then fixed the attribute error very easily because I made a simple name mistake, because I had put date instead of data. The last fix was also easy and found in my JavaScript progress bar, I changed the bad value from 100% to 100.
-
-PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/resume_page_validation_results_no_errors.pdf)
-
-#### Project Page (my_projects.html)
-
-After running the HTML5 online validation, the results came in same as my index.html that my button could not be a descendant from an a element. Also my comment line was too long and had to be shortened.
-
-PDF File Link Here With Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/project_page_validation_results_with_errors.pdf)
-
-To make the code compliant I had shortened the comment lines as well as removing the a elements. I then added in a form elements for the buttons and made the form actions linked to the websites URLs.
-
-PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/project_page_validation_results_no_errors.pdf)
-
-#### Contact Page (contact_me.html)
-
-After running the HTML5 online validation, the contact page came out with no errors.
-
-PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/html5/contact_page_validation_results_no_errors.pdf)
-
-### Main CSS (style.css)
-
-After running the CSS3 online validation, the results came in and I had no errors, but I did have a warning of which doesn’t impact the CSS3 validation. The warning was in regards to the google font imports I have done in my CSS file.
-
-PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/css3/main_css_validation_results_no_errors.pdf)
-
-### Media Queries (media_queries.css)
-
-After running the CSS3 online validation, the results came in and I had no errors or warnings.
-
-PDF File Link Here With No Errors -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/css3/media_queries_validation_results_no_errors.pdf)
-
-### Contrast Checker
-
-Here below I have shown the online contrast checker that I used, the reason I had chosen to do this is to make sure that my project meets accessibility standards. The screenshot below shows that the background colour and foreground colour that I was using in my header and footer element did pass majority of the web accessibility contrast check but failed on one check. The original background colour used in my header element is #888888 and foreground colour #000000.
-
-![Contrast Checker Fail](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/contrast/contrast_check_fail.png)
-
-So I then decided to change my background colour for my header and footer element to a lighter colour and keep the foreground colour the same. The new background colour I have chosen is #D3D3D3, this is a lighter grey than the previous colour and it passed all the web accessibility contrast check criteria.
-
-![Contrast Checker Pass](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/validation/contrast/contrast_check_pass.png)
-
-### Further Testing
-
-When it comes to testing and debugging I find it easier to test and debug as I go along whilst I am developing. Every time I started a new page or section for my project I made sure that I fully tested to make sure it worked correctly. This can be seen in my Git commit messages to my repository every time I pushed my completed files. Here in this section I will do the final testing for my whole project and test against my user stories.
+* In my resume page I have a small issue and that is to do with the CSS overflow scroll. It currently works but the height has a fixed value and cannot be set to an automatic height for every screen size.
 
 
 ## Deployment
