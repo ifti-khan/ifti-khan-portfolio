@@ -174,7 +174,9 @@ Here in this section I will be showing a variety of different validation techniq
 I will also use an online contrast checker to make sure my colours meet web accessibility standard. If there is any non-compliant code within the project it will be documented and then fixed and this will be the first step of my testing and debugging.
 
 HTML5 Validation -> [Visit Site]( https://validator.w3.org/)
+
 CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
+
 WebAIM Contrast Checker -> [Visit Site]( https://webaim.org/resources/contrastchecker/)
 
 Validation Testing PDF Link -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/tree/master/documents/validation_testing.pdf)
@@ -201,8 +203,14 @@ To add to the further testing I used Chrome Dev tools whilst programming my proj
 
 * In my resume page I have a small issue and that is to do with the CSS overflow scroll. It currently works but the height has a fixed value and cannot be set to an automatic height for every screen size.
 
+# Deployment
+I used GitHub pages to deploy my project which is currently uploaded and published on my GitHub. Before my project was deployed, I used GitHub for version control and the development of my project.
 
-## Deployment
+The way that I deployed the project was by going to the settings of my GitHub repository and then scrolled down to the GitHub pages section and published my site, which then informed me that my site was published and gave me a live URL.
+
+Deployed Project -> [Visit Site]( https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
+
+Whilst developing my project I ran my code locally by using Brackets Live Preview. The reason I used Brackets is that the live preview features allowed me make live changes to the HTML5 code as well as the CSS3 code whilst it was open in a browser without refreshing the page or creating a local server through CLI.
 
 ## Credits
 
