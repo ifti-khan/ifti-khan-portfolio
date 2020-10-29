@@ -55,7 +55,7 @@ Here in this section you will find a variety of user stories, since I am develop
 
 * Homepage - Smartphone -> [Click To View](writeup_files/wireframes/homepage_smartphone.png)
 
-### Resume Page -> [View PDF](writeup_files/master/wireframes/PDF/resume_page_wireframes.pdf)
+### Resume Page -> [View PDF](writeup_files/wireframes/PDF/resume_page_wireframes.pdf)
 
 * Resume Page - Web Browser -> [Click To View](writeup_files/wireframes/resume_page_web_browser.png)
 
