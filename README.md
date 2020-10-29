@@ -28,7 +28,6 @@ All the information will be taken from my CV and then changed, to give it more o
 
 The website will also incorporate an eye catching design that will draw website visitors into know more about myself by visiting the other web pages. If the website visitor want to know more they will be able to view and download my CV with link provided by me. I will also incorporate a built in contact form that will allow visitors to get in direct contact with me. Live links to my other projects will also be provided for the users so that they can visit my other projects and see my development skills live.
 
-
 ## User Stories
 
 Here in this section you will find a variety of user stories, since I am developing a personal portfolio website. The target audience for my personal portfolio project will be Job Recruitment Agencies, Employers, Developers, Contractors and Businesses.
@@ -46,41 +45,39 @@ Here in this section you will find a variety of user stories, since I am develop
 * As a user, I want to able to see some social media links, so that I can follow this developer through social media if in the future I want to collaborate with this developer.
 
 
-
 ## Wireframes
 
-### Homepage -> [View PDF](writeup_files/wireframes/PDF/Homepage%20Wireframes.pdf)
+### Homepage -> [View PDF](writeup_files/wireframes/PDF/homepage_wireframes.pdf)
 
-* Homepage - Web Browser -> [Click To View](writeup_files/wireframes/Homepage%20Web%20Browser.png)
+* Homepage - Web Browser -> [Click To View](writeup_files/wireframes/homepage_web_browser.png)
 
-* Homepage - Tablet -> [Click To View](writeup_files/wireframes/Homepage%20Tablet.png)
+* Homepage - Tablet -> [Click To View](writeup_files/wireframes/homepage_tablet.png)
 
-* Homepage - Smartphone -> [Click To View](writeup_files/wireframes/Homepage%20Smartphone.png)
+* Homepage - Smartphone -> [Click To View](writeup_files/wireframes/homepage_smartphone.png)
 
-### Resume Page -> [Viewriteup_files/master/wireframes/PDF/Resume%20Page%20Wireframes.pdf)
+### Resume Page -> [View PDF](writeup_files/master/wireframes/PDF/resume_page_wireframes.pdf)
 
-* Resume Page - Web Browser -> [Click To View](writeup_files/wireframes/Resume%20Page%20Web%20Browser.png)
+* Resume Page - Web Browser -> [Click To View](writeup_files/wireframes/resume_page_web_browser.png)
 
-* Resume Page - Tablet -> [Click To View](writeup_files/wireframes/Resume%20Page%20Tablet.png)
+* Resume Page - Tablet -> [Click To View](writeup_files/wireframes/resume_page_tablet.png)
 
-* Resume Page - Smartphone -> [Click To View](writeup_files/wireframes/Resume%20Page%20Smartphone.png)
+* Resume Page - Smartphone -> [Click To View](writeup_files/wireframes/resume_page_smartphone.png)
 
-### Project Page -> [View PDF](writeup_files/wireframes/PDF/Project%20Page%20Wireframes.pdf)
+### Project Page -> [View PDF](writeup_files/wireframes/PDF/project_page_wireframes.pdf)
 
-* Project Page - Web Browser -> [Click To View](writeup_files/wireframes/Project%20Page%20Web%20Browser.png)
+* Project Page - Web Browser -> [Click To View](writeup_files/wireframes/project_page_web_browser.png)
 
-* Project Page - Tablet -> [Click To View](writeup_files/wireframes/Project%20Page%20Tablet.png)
+* Project Page - Tablet -> [Click To View](writeup_files/wireframes/project_page_tablet.png)
 
-* Project Page - Smartphone -> [Click To View](writeup_files/wireframes/Project%20Page%20Smartphone.png)
+* Project Page - Smartphone -> [Click To View](writeup_files/wireframes/project_page_smartphone.png)
 
-### Contact Page -> [View PDF](writeup_files/wireframes/PDF/Contact%20Page%20Wireframes.pdf)
+### Contact Page -> [View PDF](writeup_files/wireframes/PDF/contact_page_wireframes.pdf)
 
-* Contact Page - Web Browser -> [Click To View](writeup_files/wireframes/Contact%20Page%20Web%20Browser.png)
+* Contact Page - Web Browser -> [Click To View](writeup_files/wireframes/contact_page_web_browser.png)
 
-* Contact Page - Tablet -> [Click To View](writeup_files/wireframes/Contact%20Page%20Tablet.png)
+* Contact Page - Tablet -> [Click To View](writeup_files/wireframes/contact_page_tablet.png)
 
-* Contact Page - Smartphone -> [Click To View](writeup_files/wireframes/Contact%20Page%20Smartphone.png)
-
+* Contact Page - Smartphone -> [Click To View](writeup_files/wireframes/contact_page_smartphone.png)
 
 ## Features
 
