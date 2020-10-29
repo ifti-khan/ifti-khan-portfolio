@@ -179,7 +179,7 @@ CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 
 WebAIM Contrast Checker -> [Visit Site]( https://webaim.org/resources/contrastchecker/)
 
-Validation Testing Document -> [Visit](#)
+Validation Testing Document -> [Visit](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/validation_testing.md)
 
 # Testing
 When it came to testing and debugging I found it easier to test and debug as I went along using Chrome Dev Tools. Every time I started a new page or section for my project I made sure that I fully tested it to make sure it worked correctly. This can be seen in my Git commit messages to my repository every time I pushed my completed files.
@@ -189,12 +189,12 @@ In this section I will test my project by testing against my user stories, featu
 # UX - User Story Testing
 The projects main purpose is to display myself to potential recruiters by providing a CV link and displaying my work history, education, skills and interests. Also a way for the recruiter to get in contact with me. So to test my project I will give examples of certain features by looking back at my user stories.
 
-UX User Story Testing Document -> [Visit](#)
+UX User Story Testing Document -> [Visit](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/user_story_testing.md)
 
 # Further Testing
 I have decided to further test my project by listing all features and functions by creating a list in a table format and then manually test each one. I will test my project in a variety of different browser to ensure it is fully compatible. The browsers I have chosen are Google Chrome, Microsoft Edge, Firefox and Opera. I will test to see if all of the features and functions work as well as my font, images and project responsiveness.
 
-Further Testing Document -> [Visit](#)
+Further Testing Document -> [Visit](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/further_testing.md)
 
 To add to the further testing I used Chrome Dev tools whilst programming my project and used the responsive tool to simulate different device sizes. I also did some physical testing on a few devices such as my Samsung Galaxy S10+, Samsung Galaxy Tab 6, Dell Inspiron 15inch Laptop and my Acer 24inch Monitor.
 
