@@ -1,6 +1,6 @@
 # Ifti Khan Milestone Project 1 - User Centric Frontend Development
 
-[Click Here To Visit My Project Site](https://ifti-khan.github.io/ifti-khan-milestone-project-1/personal_portfolio)
+[Click Here To Visit My Project Site](https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
 
 ## Personal Portfolio
 
