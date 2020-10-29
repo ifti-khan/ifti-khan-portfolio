@@ -8,10 +8,10 @@
 5.	From there the CV can be viewed, downloaded and printed. 
 
 ## Step 1
-![User Story CV Download Step 1](writeup_files/screenshots/ux_story_cv_dl1.jpg)
+![User Story CV Download Step 1](../writeup_files/screenshots/ux_story_cv_dl1.jpg)
 
 ## Step 2
-![User Story CV Download Step 2](writeup_files/screenshots/ux_story_cv_dl2.jpg)
+![User Story CV Download Step 2](../screenshots/ux_story_cv_dl2.jpg)
 
 # Visual Markers
 ## Visual Marker – Current Page
