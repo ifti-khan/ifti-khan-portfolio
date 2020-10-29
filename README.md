@@ -49,37 +49,37 @@ Here in this section you will find a variety of user stories, since I am develop
 
 ## Wireframes
 
-### Homepage -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Homepage%20Wireframes.pdf)
+### Homepage -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/PDF/Homepage%20Wireframes.pdf)
 
-* Homepage - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Web%20Browser.png)
+* Homepage - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Homepage%20Web%20Browser.png)
 
-* Homepage - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Tablet.png)
+* Homepage - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Homepage%20Tablet.png)
 
-* Homepage - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Homepage%20Smartphone.png)
+* Homepage - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Homepage%20Smartphone.png)
 
-### Resume Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Resume%20Page%20Wireframes.pdf)
+### Resume Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/writeup_files/master/wireframes/PDF/Resume%20Page%20Wireframes.pdf)
 
-* Resume Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Web%20Browser.png)
+* Resume Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Resume%20Page%20Web%20Browser.png)
 
-* Resume Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Tablet.png)
+* Resume Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Resume%20Page%20Tablet.png)
 
-* Resume Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Resume%20Page%20Smartphone.png)
+* Resume Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Resume%20Page%20Smartphone.png)
 
-### Project Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Project%20Page%20Wireframes.pdf)
+### Project Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/PDF/Project%20Page%20Wireframes.pdf)
 
-* Project Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Web%20Browser.png)
+* Project Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Project%20Page%20Web%20Browser.png)
 
-* Project Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Tablet.png)
+* Project Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Project%20Page%20Tablet.png)
 
-* Project Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Project%20Page%20Smartphone.png)
+* Project Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Project%20Page%20Smartphone.png)
 
-### Contact Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/PDF/Contact%20Page%20Wireframes.pdf)
+### Contact Page -> [View PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/PDF/Contact%20Page%20Wireframes.pdf)
 
-* Contact Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Web%20Browser.png)
+* Contact Page - Web Browser -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Contact%20Page%20Web%20Browser.png)
 
-* Contact Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Tablet.png)
+* Contact Page - Tablet -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Contact%20Page%20Tablet.png)
 
-* Contact Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/wireframes/Contact%20Page%20Smartphone.png)
+* Contact Page - Smartphone -> [Click To View](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/wireframes/Contact%20Page%20Smartphone.png)
 
 
 ## Features
@@ -179,7 +179,7 @@ CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 
 WebAIM Contrast Checker -> [Visit Site]( https://webaim.org/resources/contrastchecker/)
 
-Validation Testing PDF Link -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/tree/master/documents/validation_testing.pdf)
+Validation Testing Document -> [Visit](#)
 
 # Testing
 When it came to testing and debugging I found it easier to test and debug as I went along using Chrome Dev Tools. Every time I started a new page or section for my project I made sure that I fully tested it to make sure it worked correctly. This can be seen in my Git commit messages to my repository every time I pushed my completed files.
@@ -189,12 +189,12 @@ In this section I will test my project by testing against my user stories, featu
 # UX - User Story Testing
 The projects main purpose is to display myself to potential recruiters by providing a CV link and displaying my work history, education, skills and interests. Also a way for the recruiter to get in contact with me. So to test my project I will give examples of certain features by looking back at my user stories.
 
-UX User Story Testing PDF Link -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/tree/master/documents/user_story_testing.pdf)
+UX User Story Testing Document -> [Visit](#)
 
 # Further Testing
 I have decided to further test my project by listing all features and functions by creating a list in a table format and then manually test each one. I will test my project in a variety of different browser to ensure it is fully compatible. The browsers I have chosen are Google Chrome, Microsoft Edge, Firefox and Opera. I will test to see if all of the features and functions work as well as my font, images and project responsiveness.
 
-Further Testing PDF Link -> [Visit PDF](https://github.com/ifti-khan/ifti-khan-milestone-project-1/tree/master/documents/further_testing.pdf)
+Further Testing Document -> [Visit](#)
 
 To add to the further testing I used Chrome Dev tools whilst programming my project and used the responsive tool to simulate different device sizes. I also did some physical testing on a few devices such as my Samsung Galaxy S10+, Samsung Galaxy Tab 6, Dell Inspiron 15inch Laptop and my Acer 24inch Monitor.
 

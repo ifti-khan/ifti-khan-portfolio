@@ -1,5 +1,8 @@
+/*Importing google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700|Montserrat:100,200,300,400,500,600,700');
 
+/*Global CSS selectors which affect all the webpages*/
+/*Setting the font to Exo 2 and the text color to black*/
 body {
     font-family: "Exo 2", sans-serif;
     color: #000000;
@@ -8,16 +11,25 @@ body {
     border: 0;
 }
 
+/*Setting all class row to have no left or right margin*/
 .row {
     margin-right: 0px;
     margin-left: 0px;
 }
 
+/*Setting all a elements text color to black*/
 a {
     color: #000000;
 }
 
+/***Sweep To Right Hover***/
+/*I took this fragment of CSS code from hover.css to change the background color from is default color*/
+.hvr-sweep-to-right:before {
+    background: rgba(0, 0, 0, .5);
+}
+
 /***Header***/
+/*This CSS section styles all of the header elements*/
 .profile_pic {
     background-color: #a9a9a9;
     width: 100%;
@@ -100,6 +112,7 @@ a {
 }
 
 /***Navigation***/
+/*This CSS section styles all of the navigation elements*/
 .nav_bar_con h3 {
     margin: 0;
     text-transform: uppercase;
@@ -142,15 +155,10 @@ a {
     border-bottom: 2px solid #000000;
 }
 
-/***Sweep To Right Hover***/
-/*I took this fragment of css from hover.css to change the background color from is default color*/
-.hvr-sweep-to-right:before {
-    background: rgba(0, 0, 0, .5);
-}
-
 /***Main Content***/
 
 /***index.html***/
+/*This CSS section styles all of the main content in the index.html page*/
 .top-row,
 .bottom-row {
     padding: 0;
@@ -187,6 +195,7 @@ a {
     text-decoration: none;
 }
 
+/*This CSS section of code is a bootstrap button which i modified to become my read more button*/
 .readmore-btn {
     display: block;
     margin: 0 auto;
@@ -202,6 +211,7 @@ a {
 }
 
 /***my_resume.html***/
+/*This CSS section styles all of the main content in the my_resume.html page*/
 .resume-leftside-content {
     background-color: #d3d3d3;
     text-align: center;
@@ -260,6 +270,8 @@ a {
     margin-bottom: 15px;
 }
 
+/*This CSS section of code was taken from the Rosie Resume project and
+then modfied for my work history timeline*/
 .workhistory-borderline {
     border-left: 5px solid #000000;
 }
@@ -301,6 +313,8 @@ a {
     margin-bottom: 15px;
 }
 
+/*This CSS section of code was taken from the Rosie Resume project and
+then modfied for my education timeline*/
 .education-borderline {
     border-right: 5px solid #000000;
 }
@@ -338,6 +352,8 @@ a {
     background-color: #000000;
 }
 
+/*This CSS section of code is a bootstrap progress bar which i modified
+for my skills section for my resume page*/
 .progress {
     height: 30px;
 }
@@ -367,7 +383,8 @@ a {
     font-size: 15px;
 }
 
-/***my_project.html***/
+/***my_projects.html***/
+/*This CSS section styles all of the main content in the my_projects.html page*/
 .project_content {
     margin: 20px;
 }
@@ -435,6 +452,7 @@ a {
     border: 2px solid #ffffff;
 }
 
+/*This CSS section of code is a bootstrap button which i modified to become my visit site button*/
 .visit-site-btn {
     text-transform: uppercase;
     background-color: #ffffff;
@@ -459,9 +477,8 @@ a {
     color: #800000;
 }
 
-
-
 /***contact_me.html***/
+/*This CSS section styles all of the main content in the contact_me.html page*/
 .contact_content h3 {
     text-align: center;
     margin-top: 25px;
@@ -488,6 +505,7 @@ a {
     font-size: 20px;
 }
 
+/*This CSS section of code is a bootstrap button which i modified to become my send button*/
 .send-btn {
     width: 150px;
     text-transform: uppercase;
@@ -507,6 +525,7 @@ a {
 }
 
 /***message_501.html***/
+/*This CSS section styles all of the message_501.html page*/
 .message_content {
     margin-top: 15px;
 }
@@ -539,6 +558,7 @@ a {
     margin-bottom: 25px;
 }
 
+/*This CSS section of code is a bootstrap button which i modified to become my homepage button*/
 .home-btn {
     width: 175px;
     text-transform: uppercase;
@@ -559,6 +579,7 @@ a {
 }
 
 /***Footer***/
+/*This CSS section styles all of the footer elements*/
 .footer-container {
     background-color: #a9a9a9;
     text-align: center;
