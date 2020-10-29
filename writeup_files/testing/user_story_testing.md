@@ -1,9 +1,15 @@
+# UX User Story Testing
+
 # Download CV Hyperlink
 1.	When on any webpage.
 2.	Scroll up to the header of the page or scroll down to the footer of the page.
 3.	Then click on the Download My CV link shown in the header or footer.
 4.	A new tab will open and display the CV. 
 5.	From there the CV can be viewed, downloaded and printed. 
+
+![User Story CV Download Step 1](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/screenshots/ux_story_cv_dl1.jpg)
+
+![User Story CV Download Step 2](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/screenshots/ux_story_cv_dl2.jpg)
 
 # Visual Markers
 ## Visual Marker – Current Page
@@ -30,7 +36,7 @@
 # External Live Project Links
 1.	Go to the My Projects page.
 2.	Scroll up and down the page to view the project list.
-3.	To visit the project website click on the visit site button.
+3.	To visit the project site click on the visit site button or click on the site thumbnail.
 4.	A new tab will open and take the user to the project site. 
 
 # Contact Form
@@ -41,7 +47,7 @@
 5.	Once the send button is clicked, it will inform the user the message has been sent successfully.
 
 ## Important notice:
-This site feature does not work at the moment and is not connected to a server. But for now when the user clicks the send button, it will take the user to another page informing them this site feature is under construction and to email me directly.
+This site feature does not work at the moment and is not connected to a server. But for now when the user clicks the send button instead of refreshing the page, it will take the user to another page informing them this site feature is under construction and to email me directly and from there they can return to the homepage.
 
 # Social Media Links
 1.	When on any webpage.

@@ -168,6 +168,10 @@ Here is a list of programming languages used to create this project along with a
 * Google Chrome & Chrome Dev Tools -> [Visit Site](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)
     * Google Chrome and Chrome Dev Tools was used to help create my project as well as testing it as well.
 
+* Table Generator -> [Visit Site](https://www.tablesgenerator.com/markdown_tables)
+    * This online tool helped with my further testing section of my readme file. It allowed me to create the tables for testing, then i saved the file as a CSV file.
+    Then I uploaded the CSV file to the site to convert the CSV data into a markdown table format.
+
 # Validation
 Here in this section I will be showing a variety of different validation techniques to thoroughly make sure my project website is fully compliant. I will use the W3C HTML5 and CSS3 online validation tools to check my project is compliant.
 
@@ -179,7 +183,7 @@ CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 
 WebAIM Contrast Checker -> [Visit Site]( https://webaim.org/resources/contrastchecker/)
 
-Validation Testing Document -> [Visit](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/validation_testing.md)
+## Validation Testing Document -> [Visit Document](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/validation_testing.md)
 
 # Testing
 When it came to testing and debugging I found it easier to test and debug as I went along using Chrome Dev Tools. Every time I started a new page or section for my project I made sure that I fully tested it to make sure it worked correctly. This can be seen in my Git commit messages to my repository every time I pushed my completed files.
@@ -189,12 +193,12 @@ In this section I will test my project by testing against my user stories, featu
 # UX - User Story Testing
 The projects main purpose is to display myself to potential recruiters by providing a CV link and displaying my work history, education, skills and interests. Also a way for the recruiter to get in contact with me. So to test my project I will give examples of certain features by looking back at my user stories.
 
-UX User Story Testing Document -> [Visit](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/user_story_testing.md)
+## UX User Story Testing Document -> [Visit Document](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/user_story_testing.md)
 
 # Further Testing
 I have decided to further test my project by listing all features and functions by creating a list in a table format and then manually test each one. I will test my project in a variety of different browser to ensure it is fully compatible. The browsers I have chosen are Google Chrome, Microsoft Edge, Firefox and Opera. I will test to see if all of the features and functions work as well as my font, images and project responsiveness.
 
-Further Testing Document -> [Visit](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/further_testing.md)
+## Further Testing Document -> [Visit Document](https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/testing/further_testing.md)
 
 To add to the further testing I used Chrome Dev tools whilst programming my project and used the responsive tool to simulate different device sizes. I also did some physical testing on a few devices such as my Samsung Galaxy S10+, Samsung Galaxy Tab 6, Dell Inspiron 15inch Laptop and my Acer 24inch Monitor.
 
@@ -206,11 +210,13 @@ To add to the further testing I used Chrome Dev tools whilst programming my proj
 # Deployment
 I used GitHub pages to deploy my project which is currently uploaded and published on my GitHub. Before my project was deployed, I used GitHub for version control and the development of my project.
 
+During the development stage I had my project located in a directory called personal portfolio, but once the project was finished I then moved it to main root directory before I deployed my project.
+
 The way that I deployed the project was by going to the settings of my GitHub repository and then scrolled down to the GitHub pages section and published my site, which then informed me that my site was published and gave me a live URL.
 
-Deployed Project -> [Visit Site]( https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
+## Deployed Project -> [Visit Site]( https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
 
-Whilst developing my project I ran my code locally by using Brackets Live Preview. The reason I used Brackets is that the live preview features allowed me make live changes to the HTML5 code as well as the CSS3 code whilst it was open in a browser without refreshing the page or creating a local server through CLI.
+Whilst developing my project I ran my code locally by using a program called Brackets, which had a Live Preview feature. The reason I used Brackets is that the live preview was a click of a button within the program and the features allowed me make live changes to the HTML5 code as well as the CSS3 code, whilst it was open in a browser without refreshing the page or creating a local server through CLI.
 
 ## Credits
 
