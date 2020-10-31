@@ -12,7 +12,6 @@ I have chosen to do a personal portfolio project showing my employment history, 
 
 The project will be fully responsive so that it can be viewed and accessed on all device sizes. This project is the first of many project and will be the main foundation for my other development projects, as I continue to learn, grow and progress throughout the course I will add more technologies to help me advertise my skills and experience to future employers.
 
-
 ## UX – User Experience
 
 ### The who?
@@ -43,7 +42,6 @@ Here in this section you will find a variety of user stories, since I am develop
 * As a user, I want there to be an easy way to contact the portfolio developer, so that if I have any further question to ask I am able to do so.
 
 * As a user, I want to able to see some social media links, so that I can follow this developer through social media if in the future I want to collaborate with this developer.
-
 
 ## Wireframes
 
@@ -218,10 +216,66 @@ The way that I deployed the project was by going to the settings of my GitHub re
 
 Whilst developing my project I ran my code locally by using a program called Brackets, which had a Live Preview feature. The reason I used Brackets is that the live preview was a click of a button within the program and the features allowed me make live changes to the HTML5 code as well as the CSS3 code, whilst it was open in a browser without refreshing the page or creating a local server through CLI.
 
-## Credits
+# Credits
 
-### Content
+## Content
+Here I have listed the various different types of content I used in my project, the main bulk of the content came from my personal CV. The biggest help and guidance came from the Code Institute lessons, challenges and video tutorials. I have also listed a number of external URLs that helped me during the development of the project.
 
-### Media
+I used the Bootstrap CDN for my grid elements, buttons and progress bars.
 
-### Acknowledgements
+* Bootstrap Grid
+    * [Bootstrap Grid]( https://getbootstrap.com/docs/4.0/layout/grid/)
+
+* Bootstrap Progress Bar
+    * [Bootstrap Progress]( https://getbootstrap.com/docs/4.0/components/progress/)
+
+* Bootstrap Button
+    * [Bootstrap Button]( https://getbootstrap.com/docs/4.0/components/buttons/)
+
+* I used Google Font for my font and this was done by importing the font to my CSS file.
+    * [Google Fonts]( https://fonts.google.com/specimen/Exo+2?preview.text=Iftikhar%20Khan&preview.text_type=custom)
+
+* I used this URL to help me with add in HTML entities to my HTML code.
+    * [HTML Entities]( https://stackoverflow.com/questions/49877506/how-can-i-put-as-a-text-in-html/49877577)
+
+* I used this URL for the text shadowing of my headers.
+    * [Text Shadowing]( https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+
+* I used this URL for my profile picture to add a greyscale filter.
+    * [Greyscale]( https://www.w3schools.com/cssref/css3_pr_filter.asp)
+
+* I used this URL to help me with the display selector to see if there is an opposite to display:none
+    * [Display None]( https://stackoverflow.com/questions/17630945/is-there-an-opposite-to-displaynone)
+
+* I used this URL to help me with my profile picture so that it fits the container it is in.
+    * [Object Fit]( https://www.w3schools.com/css/css3_object-fit.asp)
+
+* I used this URL to help me find the different grey colour codes for my website.
+    * [HTML Colour Code]( https://www.w3schools.com/colors/colors_shades.asp)
+
+* I used this URL to help me code my internal anchor links for my website.
+    * [Anchor Link]( http://www.tagindex.net/html/link/a_name2.html)
+
+* I used this URL to help me get the status code for my message 501 page.
+    * [Message 501]( https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+* I used this URL to help me with the viewport max height.
+    * [Viewport Max]( https://www.smashingmagazine.com/2016/05/fluid-typography/)
+
+## Media
+
+* Profile Picture – The profile picture used in this project was my own personal photo of me at my graduation ceremony.
+
+* Icons – All of the icons used in the project are from Font Awesome CDN which I declared in the head of every HTML webpage. (https://use.fontawesome.com/releases/v5.14.0/css/all.css)
+
+* Hover Transition – The hover transition was used from another CDN and again was declared in the head in all HTML webpages. (https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css)
+
+## Acknowledgements
+I want to acknowledge my student mentor Giuseppe Sorrentino for his helpful advice and guidance throughout the project. I also want thank the Code Institute course lessons, challenges and video tutorials as well as stack overflow, the W3C school, bootstrap and the slack community.
+
+My inspiration primarily came from The Code Institute Rose Resume mini project. I really enjoyed working on the mini project and I liked the overall look and feel of it. This is the reason why I chose the Rosie Resume as my inspiration.
+
+When designing my own project, I did everything I could to make my project different from the Rosie Resume but the overall structure is similar but the content and style is what makes my project different.
+
+Not only did I want the project to look good but I wanted to showcase the knowledge and skills that I had learnt so far from The Code Institute Course. As I progress and grow throughout the course, so will the portfolio.
+
