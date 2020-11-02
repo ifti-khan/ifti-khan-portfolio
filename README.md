@@ -181,7 +181,7 @@ CSS3 Validation -> [Visit Site]( https://jigsaw.w3.org/css-validator/)
 
 WebAIM Contrast Checker -> [Visit Site]( https://webaim.org/resources/contrastchecker/)
 
-## Validation Testing Document -> [Visit Document](writeup_files/testing/validation_testing.md)
+### Validation Testing Document -> [Visit Document](writeup_files/testing/validation_testing.md)
 
 # Testing
 When it came to testing and debugging I found it easier to test and debug as I went along using Chrome Dev Tools. Every time I started a new page or section for my project I made sure that I fully tested it to make sure it worked correctly. This can be seen in my Git commit messages to my repository every time I pushed my completed files.
@@ -191,12 +191,12 @@ In this section I will test my project by testing against my user stories, featu
 # UX - User Story Testing
 The projects main purpose is to display myself to potential recruiters by providing a CV link and displaying my work history, education, skills and interests. Also a way for the recruiter to get in contact with me. So to test my project I will give examples of certain features by looking back at my user stories.
 
-## UX User Story Testing Document -> [Visit Document](writeup_files/testing/user_story_testing.md)
+### UX User Story Testing Document -> [Visit Document](writeup_files/testing/user_story_testing.md)
 
 # Further Testing
 I have decided to further test my project by listing all features and functions by creating a list in a table format and then manually test each one. I will test my project in a variety of different browser to ensure it is fully compatible. The browsers I have chosen are Google Chrome, Microsoft Edge, Firefox and Opera. I will test to see if all of the features and functions work as well as my font, images and project responsiveness.
 
-## Further Testing Document -> [Visit Document](writeup_files/testing/further_testing.md)
+### Further Testing Document -> [Visit Document](writeup_files/testing/further_testing.md)
 
 To add to the further testing I used Chrome Dev tools whilst programming my project and used the responsive tool to simulate different device sizes. I also did some physical testing on a few devices such as my Samsung Galaxy S10+, Samsung Galaxy Tab 6, Dell Inspiron 15inch Laptop and my Acer 24inch Monitor.
 
@@ -206,20 +206,34 @@ To add to the further testing I used Chrome Dev tools whilst programming my proj
 * In my resume page I have a small issue and that is to do with the CSS overflow scroll. It currently works but the height has a fixed value and cannot be set to an automatic height for every screen size.
 
 # Deployment
+
+## GitHub Pages
 I used GitHub pages to deploy my project which is currently uploaded and published on my GitHub. Before my project was deployed, I used GitHub for version control and the development of my project.
 
 During the development stage I had my project located in a directory called personal portfolio, but once the project was finished I then moved it to main root directory before I deployed my project.
 
 The way that I deployed the project was by going to the settings of my GitHub repository and then scrolled down to the GitHub pages section and published my site, which then informed me that my site was published and gave me a live URL.
 
-## Deployed Project -> [Visit Site](https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
+### This URL is from the GitHub Docs and it helped me publish my project ->[Visit Site](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
-Whilst developing my project I ran my code locally by using a program called Brackets, which had a Live Preview feature. The reason I used Brackets is that the live preview was a click of a button within the program and the features allowed me make live changes to the HTML5 code as well as the CSS3 code, whilst it was open in a browser without refreshing the page or creating a local server through CLI.
+### Deployed Project -> [Visit Site](https://ifti-khan.github.io/ifti-khan-milestone-project-1/)
+
+## Local Clone
+Whilst developing my project I ran my code locally by cloning my GitHub repo to my laptop hard drive. The text editor that i used to run my code locally was called Brackets. I used this text editor because i was able to connect my GitHub repo to it by downloading a GitHub extension, which allowed me to commit, push and get file to and from my GitHub pages. The text editor also allowed me to download serveral plugins such as Emmet, Beautify and Markdown Previewer to help me develop my project.
+
+I also chose to use Brackets because of the wide range of features it had to offer such as the Live Preview feature, which allowed me to view my project live in my Chrome browser and edit whilst live without refreshing it. Another feature is the vertical split panel which allowed me to have two seperate files like my HTML open on the left panel and my CSS on the right panel. Also the file tree was easy to read and navigate but also allowed me to switch between other directorys and repos with ease.
+
+### This URL here helped me install Git in my Brackets Text Editor -> [Visit Site](http://practicalseries.com/1002-vcs/05-01-brackets.html#js--050100)
+
+### This URL here helped me clone my GitHub repo to my Brackets Text Editor -> [Visit Site](http://practicalseries.com/1002-vcs/05-03-brackets.html)
 
 # Credits
 
 ## Content
-Here I have listed the various different types of content I used in my project, the main bulk of the content came from my personal CV. The biggest help and guidance came from the Code Institute lessons, challenges and video tutorials. I have also listed a number of external URLs that helped me during the development of the project.
+Here I have listed the various different types of content I used in my project, the main bulk of the content came from my personal CV. The biggest help and guidance came from the Code Institute lessons, challenges and video tutorials.
+
+## Code
+Here I have listed a number of external URLs that helped me during the development of the project.
 
 I used the Bootstrap CDN for my grid elements, buttons and progress bars.
 
