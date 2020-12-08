@@ -98,19 +98,20 @@
             <!--empty divs to push out and center my contact form, but will only show up on larger screens-->
             <div class="col-xl-2"></div>
             <div class="col-12 col-md-12 col-lg-12 col-xl-8 contact_form">
-                <form onsubmit="return sendMail(this);">
+                <form id="contactform" onsubmit="return sendMail(this);">
 
-                    <input type="text" name="fullname" id="fullname" placeholder="Name" required>
+                    <input type="text" name="fullname" id="fullname" placeholder="Name">
 
-                    <input type="text" name="number" id="mobile" placeholder="Number" required>
+                    <input type="text" name="number" id="mobile" placeholder="Number">
 
-                    <input type="email" name="emailaddress" id="email" placeholder="Email" required>
+                    <input type="email" name="emailaddress" id="email" placeholder="Email">
 
-                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
 
-                    <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
+                    <textarea id="message" name="message" placeholder="Message" rows="6"></textarea>
 
-                    <button type="submit" class="btn btn-outline-secondary hvr-sweep-to-right send-btn">send</button>
+                    <button type="submit" id="sendbutton" class="btn btn-outline-secondary hvr-sweep-to-right send-btn">send</button>
+
                 </form>
             </div>
 
