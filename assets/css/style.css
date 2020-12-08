@@ -389,6 +389,13 @@ for my skills section for my resume page*/
     margin: 20px;
 }
 
+#live_project_heading {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
 .project_content h2 {
     margin-bottom: 5px;
     text-transform: uppercase;

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,500,600,700');
+
+body {
+    font-family: "Exo 2", sans-serif;
+}
+
+.gh-profile {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+#gh-heading {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    text-decoration: underline
+}
+
+.gh-username {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.small-name {
+    font-size: 24px;
+    color: gray;
+    font-style: italic;
+}
+
+.small-name a {
+    color: black;
+}
+
+.gh-profile-pic {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.gh-profile_pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.gh-content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.gh-content-mobile {
+    display: none;
+}
+
+.gh-content a {
+    color: black;
+}
+
+.repo-heading {
+    font-size: 24px;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.ul-list {
+    list-style: none;
+}
+
+.repo-list ul {
+    font-size: 16px;
+    text-align: center;
+}
+
+.repo-list ul li a {
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+    padding: 6px 12px;
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: #000;
+    background-color: lightgray;
+}
+
+.repo-list ul li a:hover {
+    background-color: grey;
+}
+
+/***Laptop Large 1440px***/
+@media (max-width: 1440px) {
+
+    .gh-profile {
+        max-width: 65%;
+    }
+
+    .gh-profile-pic {
+        padding-bottom: 0px;
+    }
+
+    .gh-profile_pic {
+        width: 175px;
+        height: 175px;
+    }
+
+    .gh-content {
+        margin-top: 10px;
+    }
+
+    .repo-heading {
+        margin: 5px 0px;
+    }
+
+}
+
+/***Laptop 1024px***/
+@media (max-width: 1024px) {
+
+    .gh-profile {
+        max-width: 75%;
+    }
+
+    .gh-profile-pic {
+        padding-bottom: 0px;
+    }
+
+    .gh-profile_pic {
+        width: 175px;
+        height: 175px;
+    }
+
+    .gh-content {
+        margin-top: 10px;
+    }
+
+    .repo-heading {
+        margin: 5px 0px;
+    }
+
+}
+
+/***Tablet 768px***/
+@media (max-width: 768px) {
+
+    .gh-profile {
+        max-width: 100%;
+    }
+
+    .gh-profile-pic {
+        padding-bottom: 0px;
+    }
+
+    .gh-profile_pic {
+        width: 175px;
+        height: 175px;
+    }
+
+    .gh-content {
+        margin-top: 10px;
+    }
+
+    .repo-heading {
+        margin: 10px 0px;
+    }
+
+}
+
+/***Smartphone 425px***/
+@media (max-width: 425px) {
+
+    .gh-profile {
+        max-width: 100%;
+    }
+
+    .gh-profile-pic {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .gh-profile_pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .gh-content {
+        display: none;
+    }
+
+    .gh-content-mobile {
+        display: initial;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 0px;
+        letter-spacing: 2px;
+    }
+
+    .followers-following-repo {
+        margin: 5px 0px;
+    }
+
+    .ul-list {
+        list-style: none;
+        padding: 0px 15px;
+    }
+
+    .repo-list ul li a {
+        float: none;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+    }
+
+    .repo-heading {
+        margin: 5px 0px;
+    }
+}

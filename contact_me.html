@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/media_queries.css" type="text/css" />
     <title>IK Personal Portfolio Contact Me</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_5ufwrdpLONQqmdzUjcdEi");
+        })();
+
+    </script>
 </head>
 
 <body>
@@ -90,17 +98,17 @@
             <!--empty divs to push out and center my contact form, but will only show up on larger screens-->
             <div class="col-xl-2"></div>
             <div class="col-12 col-md-12 col-lg-12 col-xl-8 contact_form">
-                <form action="assets/pages/message_501.html">
+                <form onsubmit="return sendMail(this);">
 
-                    <input type="text" id="fullname" placeholder="Name" required>
+                    <input type="text" name="fullname" id="fullname" placeholder="Name" required>
 
-                    <input type="text" id="mobile" placeholder="Number" required>
+                    <input type="text" name="number" id="mobile" placeholder="Number" required>
 
-                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="email" name="emailaddress" id="email" placeholder="Email" required>
 
-                    <input type="text" id="subject" placeholder="Subject" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
 
-                    <textarea id="message" placeholder="Message" rows="6" required></textarea>
+                    <textarea id="message" name="message" placeholder="Message" rows="6" required></textarea>
 
                     <button type="submit" class="btn btn-outline-secondary hvr-sweep-to-right send-btn">send</button>
                 </form>
@@ -158,7 +166,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="assets/js/send_email.js"></script>
 </body>
 
 </html>
