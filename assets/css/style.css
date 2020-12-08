@@ -512,6 +512,11 @@ for my skills section for my resume page*/
     font-size: 20px;
 }
 
+#fullname,
+#subject {
+    text-transform: capitalize;
+}
+
 /*This CSS section of code is a bootstrap button which i modified to become my send button*/
 .send-btn {
     width: 165px;
