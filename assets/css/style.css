@@ -212,6 +212,10 @@ a {
 
 /***my_resume.html***/
 /*This CSS section styles all of the main content in the my_resume.html page*/
+.active {
+    text-decoration: underline;
+}
+
 .resume-leftside-content {
     background-color: #d3d3d3;
     text-align: center;
