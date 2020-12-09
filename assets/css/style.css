@@ -240,6 +240,7 @@ a {
     letter-spacing: 2px;
     overflow: auto;
     max-height: 30vmax;
+    scroll-behavior: smooth;
 }
 
 .resume-rightside-content p {
@@ -301,12 +302,12 @@ then modfied for my work history timeline*/
     width: 20px;
     height: 20px;
     display: block;
-    left: -27px;
+    left: -28px;
     top: 18px;
     position: absolute;
     border-radius: 5px;
     content: '';
-    background-color: #000000;
+    background-color: #787878;
 }
 
 #education {
@@ -344,12 +345,12 @@ then modfied for my education timeline*/
     width: 20px;
     height: 20px;
     display: block;
-    right: -27px;
+    right: -28px;
     top: 18px;
     position: absolute;
     border-radius: 5px;
     content: '';
-    background-color: #000000;
+    background-color: #787878;
 }
 
 /*This CSS section of code is a bootstrap progress bar which i modified
