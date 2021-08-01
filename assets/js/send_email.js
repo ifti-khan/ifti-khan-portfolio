@@ -1,5 +1,13 @@
 const btn = document.getElementById('sendbutton');
 
+function changeSendBtnText() {
+    btn.textContent = 'Send';
+}
+
+function resetContactForm() {
+    document.getElementById('contactform').reset();
+}
+
 document.getElementById('contactform')
     .addEventListener('submit', function (event) {
         event.preventDefault();
@@ -17,14 +25,18 @@ document.getElementById('contactform')
                 "contact_number": this.number.value,
             })
             .then((response) => {
-                btn.textContent = 'Send';
+                btn.textContent = 'Sent';
                 console.log("Message Has Been Sent", response);
-                if (alert('Your message has been sent!')) {} else window.location.reload();
+                resetContactForm();
+                setTimeout(changeSendBtnText, 5000);
+
             }, (error) => {
-                btn.textContent = 'Send';
+                btn.textContent = 'Error';
                 console.log("Message Failed To Send", error);
-                if (alert(`Oops something went wrong!`)) {} else
-                    window.location.replace("assets/pages/message_404.html");
+                alert(`Oops something went wrong!`);
+                resetContactForm();
+                setTimeout(changeSendBtnText, 3000);
+                window.location.replace("assets/pages/message_404.html");
             });
     });
 
