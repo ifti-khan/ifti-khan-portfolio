@@ -36,12 +36,6 @@ After running the HTML5 online validation, the contact page came out with no err
 
 PDF File Link Here With No Errors -> [Visit PDF]( https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/validation/html5/contact_page_validation_results_no_errors.pdf)
 
-# Message 501 Page (message_501.html)
-
-After running the HTML5 online validation, the message 501 page came out with no errors.
-
-PDF File Link Here With No Errors -> [Visit PDF]( https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/validation/html5/message501_page_validation_results_no_errors.pdf)
-
 # Main CSS (style.css)
 
 After running the CSS3 online validation, the results came in and I had no errors, but I did have a warning of which doesn’t impact the CSS3 validation. The warning was in regards to the google font imports I have done in my CSS file.
@@ -66,6 +60,3 @@ So I then decided to change my background colour for my header and footer elemen
 
 ![Contrast Checker Pass]( https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/validation/contrast/contrast_check_pass.png)
 
-Here i have also ran the contrast checker on my Message 501 html page and it passed with no errors.
-
-![Contrast Checker Message 501 Pass]( https://github.com/ifti-khan/ifti-khan-milestone-project-1/blob/master/writeup_files/validation/contrast/contrast_check_message501_page_pass.jpg)
