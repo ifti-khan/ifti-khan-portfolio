@@ -383,6 +383,11 @@ for my skills section for my resume page*/
     font-size: 15px;
 }
 
+.python-progress {
+    background-color: #bd7b00;
+    font-size: 15px;
+}
+
 .sql-progress {
     background-color: #000000;
     font-size: 15px;
